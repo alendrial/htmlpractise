@@ -46,9 +46,17 @@ body {
 .menu_icon2:not(:last-child) {
     margin-right: 33px;
 }
+.menu_icon1_anim:hover {
+    transform: scale(1.2);  
+}
+.menu_icon2_anim:hover {
+    transform: scale(1.2);
+}
 .header_content {
     background-color:#F1E4E6;
     height: 764px;
+    position: relative;
+
 }
 
 .head_content_flex {
@@ -59,7 +67,27 @@ body {
     background-image: url(../img/Head_image_man.png);
     background-repeat: no-repeat;
     background-position-x: -228px;
+    padding-right: 99px;
     
+}
+.head_menu_module {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    height: 764px;
+    width: 232px;
+    background: #FFFFFF;
+    box-shadow: 0px 19px 11px 0px rgba(0, 0, 0, 0.24);
+    visibility: visible;
+}
+.head_menu_module:hover {
+    visibility: visible;
+}
+.menu_block {
+    display: block;
+    border: 1px solid red;
+    margin-top: 15px;
 }
 .title_decor {
     color: #F16D7F;
@@ -112,6 +140,9 @@ body {
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
+}
+.card_text:hover {
+    transform: scale(1.1);
 }
 .card_text_decor {
     font-weight: 700;
@@ -176,6 +207,8 @@ body {
 max-width: 360px;
 height: 100%;
 background: #F8F8F8;
+position: relative;
+
 }
 .featured_items_card_heading {
     font-size: 13px;
@@ -211,6 +244,32 @@ background: #F8F8F8;
 .featured_items_link {
     text-decoration: none;
 }
+.featured_items_img {
+    
+}
+
+.featured_items_img:hover {
+    
+    opacity: 0.5;
+    transition: 0.5s;
+       
+}
+.featured_items_img_button {
+    
+    position: absolute;
+    top: 188.5px;
+    right: 115.5px;
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    padding: 13px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #000000;
+    
+}
+
 
 .catalog_button {
     
@@ -230,6 +289,11 @@ background: #F8F8F8;
 .buttun_flex_center {
     display: flex;
     justify-content: center;
+}
+.catalog_button:hover {
+    background: #FF6A6A;
+    color: #FFFFFF;
+    transition: 0.5s;
 }
 /*раздел преимуществ*/
 
@@ -273,8 +337,9 @@ background: #F8F8F8;
     margin-top: 16px;
     opacity: 0.7;
 }
-.benefits_img {
-    
+.benefits_card:hover {
+   transform: scale(1.1);
+   transition:  0.5s;
 }
 
 /*модуль подписки*/
@@ -374,7 +439,6 @@ background: #F8F8F8;
     align-items: center;
 }
 .footer_icons {
-
 }
 .footer_text_decor {
     font-weight: 400;
@@ -383,4 +447,10 @@ background: #F8F8F8;
     color: #FBFBFB;
     
 }
-
+.foot_icon {
+    background: white;
+}
+.foot_icon:hover {
+    background: #F16D7F;
+    
+}
