@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+   
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.wrapper {
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+/*Основная часть с меню*/
+.main_page_content {
+    flex-grow: 1
+}
+.header_module {
+    
+}
+.header_menu_back {
+    background-color: black;
+}
+.header_menu {
+    padding-top: 17.5px;
+    padding-bottom: 17.5px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_left {
+
+}
+.header_right {
+
+}
+.menu_icon1 {
+    margin-right: 41px;
+}
+.menu_icon2:not(:last-child) {
+    margin-right: 33px;
+}
+.header_content {
+    background-color:#F1E4E6;
+    height: 764px;
+}
+
+.head_content_flex {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+    background-image: url(../img/Head_image_man.png);
+    background-repeat: no-repeat;
+    background-position-x: -228px;
+    
+}
+.title_decor {
+    color: #F16D7F;
+}
+
+.head_content_title {
+    max-width: 405px;
+    border-left: 12px solid #F16D7F; 
+    padding-left: 16px;
+}
+.head_title_text {
+    font-style: normal;
+    font-weight: 700;
+    font-size:  30px; /*при 32пикселях перенос строки*/ 
+    line-height: 38px;
+    color: #222222;
+}
+.title_text_bold {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    padding-right: 15px; /*при 32пикселях перенос строки*/ 
+}
+
+/*Акции скидки категории*/
+
+.category_module {
+    margin-top: 65px;
+}
+.category_module_flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.category_item:not(:last-child) {
+    max-width: 360px;
+    height: 260px; 
+}
+.category_item {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.card_text_decor {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    
+}
+.decor_zero {
+    text-decoration: none;
+}
+.card1 {
+    background-image: url(../img/for_woman.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.card2 {
+    background-image: url(../img/for_man.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.card3 {
+    background-image: url(../img/for_kid.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.card4 {
+    background-image: url(../img/for_acc.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Блок с лучшими вещами*/
+.featured_items_module {
+    margin-top: 96px;
+}
+.featured_items_text {
+    text-align: center;
+
+}
+.featured_items_heading {
+    font-size: 30px;
+    line-height: 36px; 
+    color: #222222;
+}
+.featured_items_paragraph {
+    margin-top: 6px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+
+}
+.featured_items {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.featured_items_card {
+    
+max-width: 360px;
+height: 100%;
+background: #F8F8F8;
+}
+.featured_items_card_heading {
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 25px;
+    padding-left: 18px;
+}
+.featured_items_card_paragraph {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 12px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+}
+
+.featured_items_card_price:before {
+    content: '$';
+    margin-bottom: 15px;
+}
+.card_price {
+    padding-left: 18px;
+    margin-bottom: 16px;
+}
+.featured_items_card_price {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    
+}
+.featured_items_link {
+    text-decoration: none;
+}
+
+.catalog_button {
+    
+    padding: 14.5px 38.5px 13.5px 38.5px;
+    border: 1px solid #FF6A6A;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin-top: 48.5px;
+    
+    
+}
+
+.buttun_flex_center {
+    display: flex;
+    justify-content: center;
+}
+/*раздел преимуществ*/
+
+.benefits {
+    width: 100%;
+    background: #222224;
+    margin-top: 95.5px;
+}
+.benefit_card_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+}
+.benefits_card {
+    max-width: 360px;
+    height: 100%;
+    padding: 104px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+          
+}
+.benefits_heading {
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    text-align: center;
+    margin-top: 25px;
+}
+.benefits_paragraph {
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+    margin-top: 16px;
+    opacity: 0.7;
+}
+.benefits_img {
+    
+}
+
+/*модуль подписки*/
+.subscribe_module{
+    background-image: url(../img/subscribe_back.png);
+    background-repeat: round; /*тут можно без репита, то тогда при ширине >1598px белая полоса */
+    height: 100%;
+    width: auto;
+}
+.subscribe_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.wishes {
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 86px;
+    padding-bottom: 174px;
+    
+}
+.wishes_paragraph {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+.subscribe {
+    max-width: 557px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 130px;
+    padding-bottom: 156px;
+}
+.subscribe_button {
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    
+}
+.subscribe_text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #222224;
+}
+.subscribe_text_decor {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: -8px;
+}
+.input_email {
+    padding: 8px 0px 7px 22px;
+    background: #E1E1E1;
+    border: 0px;
+    border-radius: 15px 0px 0px 15px;
+    height: 49px;
+    width: 100%;
+    
+}
+.input_submit {
+    background: #F16D7F;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-left: -5px;
+    padding: 7px 7px 6px 8px;
+    border: 0px;
+    border-radius: 0px 15px 15px 0px;
+    height: 49px;
+    width: 100%;
+    max-width: 100px;
+}
+
+
+
+
+/*footer*/
+
+.footer {
+    background:#222224;
+    padding: 30px 0px;
+
+}
+.footer_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_icons {
+
+}
+.footer_text_decor {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+    
+}
+
