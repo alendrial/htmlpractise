@@ -55,6 +55,8 @@ body {
 .header_content {
     background-color:#F1E4E6;
     height: 764px;
+    position: relative;
+
 }
 
 .head_content_flex {
@@ -65,8 +67,22 @@ body {
     background-image: url(../img/Head_image_man.png);
     background-repeat: no-repeat;
     background-position-x: -228px;
+    padding-right: 99px;
     
 }
+.head_menu_module {
+position: absolute;
+right: 0px;
+height: 764px;
+width: 232px;
+background: #FFFFFF;
+box-shadow: black;
+visibility: hidden;
+}
+.head_menu_module:hover {
+visibility: visible;
+}
+
 .title_decor {
     color: #F16D7F;
 }
@@ -233,6 +249,7 @@ position: relative;
        
 }
 .featured_items_img_button {
+    
     position: absolute;
     top: 188.5px;
     right: 115.5px;
