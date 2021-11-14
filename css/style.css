@@ -78,7 +78,7 @@ body {
     height: 764px;
     width: 232px;
     background: #FFFFFF;
-    box-shadow: black;
+    box-shadow: 0px 19px 11px 0px rgba(0, 0, 0, 0.24);
     visibility: visible;
 }
 .head_menu_module:hover {
