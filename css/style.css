@@ -71,18 +71,24 @@ body {
     
 }
 .head_menu_module {
-position: absolute;
-right: 0px;
-height: 764px;
-width: 232px;
-background: #FFFFFF;
-box-shadow: black;
-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    height: 764px;
+    width: 232px;
+    background: #FFFFFF;
+    box-shadow: black;
+    visibility: visible;
 }
 .head_menu_module:hover {
-visibility: visible;
+    visibility: visible;
 }
-
+.menu_block {
+    display: block;
+    border: 1px solid red;
+    margin-top: 15px;
+}
 .title_decor {
     color: #F16D7F;
 }
