@@ -289,13 +289,6 @@ position: relative;
     
 }
 
-.featured_items_img:hover {
-    
-    background: rgba(58, 56, 56, 0.86);
-    opacity: 0.5;
-    transition: 0.5s;
-       
-}
 .featured_items_img_button {
     
     position: absolute;
@@ -491,8 +484,10 @@ position: relative;
 }
 .foot_icon {
     background: white;
-}
-.foot_icon:hover {
-    background: #F16D7F;
     
 }
+.foot_icon:hover,.icon_color:hover {
+    background: #F16D7F;
+    fill: white;
+}
+
