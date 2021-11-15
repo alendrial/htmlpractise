@@ -294,6 +294,7 @@ position: relative;
 }
 .featured_items_img:hover {
     opacity: 0.5;
+    transition: 1s;
 }
 
 .featured_items_img_button {
