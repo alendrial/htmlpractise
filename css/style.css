@@ -142,7 +142,7 @@ body {
 .head_title_text {
     font-style: normal;
     font-weight: 700;
-    font-size:  30px; /*при 32пикселях перенос строки*/ 
+    font-size:  32px; /*при 32пикселях перенос строки*/ 
     line-height: 38px;
     color: #222222;
 }
@@ -150,7 +150,7 @@ body {
     font-weight: 900;
     font-size: 48px;
     line-height: 58px;
-    padding-right: 15px; /*при 32пикселях перенос строки*/ 
+     /*при 32пикселях перенос строки*/ 
 }
 
 /*Акции скидки категории*/
@@ -290,6 +290,7 @@ position: relative;
 }
 
 .featured_items_img:hover {
+    
     background: rgba(58, 56, 56, 0.86);
     opacity: 0.5;
     transition: 0.5s;
