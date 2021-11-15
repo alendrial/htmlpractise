@@ -486,8 +486,12 @@ position: relative;
     background: white;
     
 }
-.foot_icon:hover,.icon_color:hover {
+
+
+.foot_icon:hover {
     background: #F16D7F;
+}   
+
+.foot_icon:hover .icon_color {
     fill: white;
 }
-
