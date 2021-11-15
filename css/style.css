@@ -288,8 +288,12 @@ position: relative;
 .featured_items_link {
     text-decoration: none;
 }
-.featured_items_img {
-    
+.shadow_card {
+    background: #000000;
+    max-height: 420px;
+}
+.featured_items_img:hover {
+    opacity: 0.5;
 }
 
 .featured_items_img_button {
