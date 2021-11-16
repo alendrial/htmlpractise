@@ -251,7 +251,7 @@ body {
 max-width: 360px;
 height: 100%;
 background: #F8F8F8;
-position: relative;
+
 
 }
 .featured_items_card_heading {
@@ -291,31 +291,47 @@ position: relative;
 .shadow_card {
     background: #000000;
     max-height: 420px;
+    position: relative;
+    
 }
-.featured_items_img:hover {
-    opacity: 0.5;
-    transition: 1s;
+.featured_items_img {
+    
 }
 
-.featured_items_img_button {
+.featured_items_card:hover .featured_items_img {
+    opacity: 0.5;
+    transition: 1s;
     
+}
+
+
+
+.featured_items_img_button {
+    display: flex;
+    align-items: center;
     position: absolute;
     top: 188.5px;
-    right: 115.5px;
+    left: 111.5px;
     border: 1px solid #FFFFFF;
     text-decoration: none;
-    padding: 13px;
+    padding: 10px 13px 8px 10px;
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
     color: #FFFFFF;
-    background: #000000;
+    background: transparent;
+    opacity: 0;
+    
     
 }
-.featured_items_img_button::before {
-    list-style: url(../img/Basket_card.svg);
-}
 
+.featured_items_card:hover .featured_items_img_button{
+    transition: 1s;
+    opacity: 1;
+}
+.featured_items_img_button:hover {
+    transform: scale(1.5);
+}
 
 .catalog_button {
     
@@ -340,6 +356,10 @@ position: relative;
     background: #FF6A6A;
     color: #FFFFFF;
     transition: 0.5s;
+}
+
+.img_button_basket {
+    padding-right: 11px;
 }
 /*раздел преимуществ*/
 
