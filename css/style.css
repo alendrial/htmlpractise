@@ -800,9 +800,14 @@ background: #F8F8F8;
 }
 .left_select, .right_select {
     background: rgba(42, 42, 42, 0.15);
-    height: 47px;
-    width: 47px; 
+    padding: 12.6px 17.3px; 
 }
 
+.left_select:hover .page_fill {
+    fill: #EF5B70;;
+}
+.right_select:hover .page_fill {
+    fill: #EF5B70;;
+}
 
 /*CART*/
