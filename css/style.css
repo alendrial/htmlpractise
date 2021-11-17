@@ -785,3 +785,24 @@ background: #F8F8F8;
     margin-left: 23px;
 
 }
+
+/*PRODUCT*/
+.subscribe_module_product {
+    margin-top: 128px;
+}
+
+.header_product_module {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F7F7F7;
+    
+}
+.left_select, .right_select {
+    background: rgba(42, 42, 42, 0.15);
+    height: 47px;
+    width: 47px; 
+}
+
+
+/*CART*/
