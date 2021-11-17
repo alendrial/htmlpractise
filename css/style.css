@@ -666,6 +666,10 @@ background: #F8F8F8;
 
 .catalog_page_button:hover {
     color:#EF5B70;
+
+}
+.catalog_page_button:hover .page_fill {
+    fill: #EF5B70;
 }
 
 /*РЕГИСТРАЦИЯ*/
