@@ -565,7 +565,7 @@ background: #F8F8F8;
     font-weight: 700;
 }
 .catalog_items_module{
-    margin-top: 50px;
+    margin-top: 39px;
     position: relative;
     
 }
@@ -575,14 +575,49 @@ background: #F8F8F8;
 }
 .filter_category {
     display: block;
+    padding: 13px 0px 0px 16px;
+    width: 360px;
+    /*position: absolute;*/ тут будет анимация всплывание
 }
 
 .filter_category_summary {
     display: block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-transform: uppercase;
 }
-.filter_category_summary::-webkit-details-marker {
-    display: none;
+
+.filter_category_summary:after {
+    content: url(../img/catalog_filter.svg);
+    padding-left: 11px;
 }
-.filter_category_summary::before {
-    background: url(../img/);
+.filter_category_tsp_module {
+    display: flex;
+    margin-left: 30px;
+    gap: 28px;
+    padding-top: 13px;
+    width: fit-content;
+
+}
+
+
+.filter_category_tsp {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    text-transform: uppercase;
+
+    
+    
+}
+.filter_category_tsp_sum {
+    display: block;
+}
+.filter_category_tsp_sum:after {
+    content: url(../img/filter_v.svg);
+    padding-left: 11px;
 }
