@@ -37,21 +37,18 @@
             </div>
             <div class="container subscribe_form_module">
             <div class="subscribe_form">
-                <div class="feedback_forms">
-                    <h4 class="contacts_feedback_heading">SEND US MESSAGE</h4>
-                    
-                    <form class="feedback_forms_block" action="index.html">
-                    <label><p class="feedback_name">Full Name</p>
-                    <input class="inputlabels labelname" type="text" placeholder="Full Name"></label>
-                    
-                    <label for="email"><p class="feedback_email">Email</p></label>
+                <form class="subscribe_form1" action="#">
+                    <h1 class="subscribe_form1_text">Your name</h1>
+                    <input class="input_form" type="text" placeholder="First Name" required pattern="[a-zA-Z]+$">
+                    <input class="input_form" type="text" placeholder="Last Name" required pattern="[a-zA-Z]+$">
+                    <h1 class="subscribe_form1_text">Login Details</h1>
+                    <input class="input_form" type="email" name="" id="" placeholder="email@mail.com" required>
+                    <input class="input_form" type="password" name="" id="" placeholder="Password" autocomplete="on" required minlength="8">  
+                    <p class="subscribe_form1_p">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
+                     <button class="button_submit" type="submit">
+                         Join Now <img class="submit_arrow" src="img/Sumbit_arrow.svg" alt=""></button>
+                </form>
                 
-                    <input class="inputlabels labelemail"type="email" name="email" id="email" placeholder="Email@email.com">
-                    <label> <p class="feedback_message">Message</p> <textarea class="inputlabels labelmessage"  cols="30" rows="3" placeholder="Send us feedback"></textarea></label>
-                    <button class="buttontype" type="submit">Submit</button>
-                    <!--<button type="reset">Clear</button>-->
-                    </form>
-                    </div>
             </div>
             <div class="subscribe_text">
                 <h1 class="subscribe_text_tittle">LOYALTY HAS ITS PERKS</h1>
