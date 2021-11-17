@@ -353,6 +353,7 @@ background: #F8F8F8;
     display: flex;
     justify-content: center;
 }
+
 .catalog_button:hover {
     background: #FF6A6A;
     color: #FFFFFF;
@@ -620,6 +621,52 @@ background: #F8F8F8;
 .filter_category_tsp_sum:after {
     content: url(../img/filter_v.svg);
     padding-left: 11px;
+}
+.catalog_page {
+    display: flex;
+    justify-content: center;
+    margin-top: 48.5px;
+}
+.catalog_page_flex {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #EBEBEB;
+    width: fit-content;
+}
+
+.catalog_page_button {
+    display: block;
+    align-items: center;
+    padding: 11.5px 7.5px 12.5px 7.5px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: gray;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+
+.catalog_page_button:last-child {
+    padding-right: 15px;
+    
+}
+.catalog_page_button:first-child {
+   padding-left: 15px;
+   
+}
+.catalog_page_button:nth-child(8) {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.catalog_page_button:nth-child(7) {
+    padding-right: 0px;
+}
+.catalog_page_button:nth-child(9) {
+    padding-left: 0px;
+}
+
+.catalog_page_button:hover {
+    color:#EF5B70;
 }
 
 /*РЕГИСТРАЦИЯ*/
