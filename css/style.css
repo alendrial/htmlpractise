@@ -750,10 +750,12 @@ background: #F8F8F8;
 .submit_arrow {
     padding-left: 20px;
 }
-.subscribe_text {
+.subscribe_text_reg {
     display: block;
     max-width: 652px;
+    
 }
+
 .subscribe_text_tittle {
     font-weight: 300;
     font-size: 24px;
