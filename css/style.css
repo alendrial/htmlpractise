@@ -245,6 +245,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    
 }
 .featured_items_card {
     
@@ -525,4 +526,63 @@ background: #F8F8F8;
 
 .foot_icon:hover .icon_color {
     fill: white;
+}
+
+/*СТРАНИЦА КАТАЛОГА*/
+
+.header_catalog_module {
+    background: #F8F3F4;
+    
+    
+}
+.header_catalog_module_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 148px;
+}
+.header_catalog_title_text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.header_catalog_categ_link {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header_catalog_categ_link:hover {
+    color: #F16D7F;
+    font-weight: 700;
+}
+.catalog_items_module{
+    margin-top: 50px;
+    position: relative;
+    
+}
+.catalog_items_filter {
+    display: flex;
+    position: relative;
+}
+.filter_category {
+    display: block;
+}
+
+.filter_category_summary {
+    display: block;
+}
+.filter_category_summary::-webkit-details-marker {
+    display: none;
+}
+.filter_category_summary::before {
+    background: url(../img/);
 }
