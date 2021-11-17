@@ -796,11 +796,15 @@ background: #F8F8F8;
     justify-content: space-between;
     align-items: center;
     background: #F7F7F7;
+    position: relative;
+    z-index: 1;
     
 }
 .left_select, .right_select {
+    display: block;
     background: rgba(42, 42, 42, 0.15);
-    padding: 12.6px 17.3px; 
+    padding: 12.6px 17.3px 8.9px 17.3px
+     
 }
 
 .left_select:hover .page_fill {
@@ -810,4 +814,13 @@ background: #F8F8F8;
     fill: #EF5B70;;
 }
 
+.header_product_descr {
+    border: 1px solid black;
+    width: 1141px;
+    height: 601px;
+    background: gray;
+    z-index: 2;
+    position: absolute;
+    top: 860px;
+}
 /*CART*/
