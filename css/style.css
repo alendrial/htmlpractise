@@ -621,3 +621,176 @@ background: #F8F8F8;
     content: url(../img/filter_v.svg);
     padding-left: 11px;
 }
+
+/*РЕГИСТРАЦИЯ*/
+.header_reg_module_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 148px;
+}
+.header_reg_module {
+    background: #F8F3F4;
+    
+    
+}
+.header_reg_text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.subscribe_form_module {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    
+}
+.subscribe_form {
+    width: 360px;
+}
+.subscribe_text {
+    display: block;
+    max-width: 652px;
+}
+.subscribe_text_tittle {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: left;
+}
+.subscribe_text_paragraph {
+    margin-top: 22px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-align: left;
+}
+.subscribe_text_list {
+    list-style: url(../img/registration-v.svg);
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-align: left;
+}
+.subscribe_text_list_link {
+    margin-top: 21px;
+    margin-left: 23px;
+
+}
+.feedback_forms {
+    padding: 56px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+            box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .feedback_name {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+  }
+  
+  .labelname {
+    margin-top: 7px;
+    padding: 21px 0px 21px 36px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.2;
+  }
+  
+  .labelemail {
+    margin-top: 7px;
+    padding: 21px 0px 21px 36px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.2;
+  }
+  
+  .labelmessage {
+    margin-top: 7px;
+    padding: 21px 0px 93px 35px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.2;
+  }
+  
+  .inputlabels {
+    border: 1px solid #356EAD;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+    display: block;
+  }
+  
+  .feedback_email {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    margin-top: 32px;
+  }
+  
+  .feedback_message {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    margin-top: 32px;
+  }
+  
+  .buttontype {
+    display: inline-block;
+    background: #5A98D0;
+    -webkit-box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+            box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 23px 0px;
+    width: 100%;
+    margin-top: 72px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+  
+  .buttontype:hover {
+    background-image: url(images/logot.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: darkorange;
+    border-color: darkviolet;
+  }
