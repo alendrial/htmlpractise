@@ -29,42 +29,100 @@
                 <div class="header_reg_module">
                 <div class="container header_reg_module_flex">
                     <div class="header_reg_text">
-                        <h1 class="header_reg_text">Registration</h1>
+                        <h1 class="header_reg_text">Shopping cart</h1>
                     </div>
                     
                 </div>   
                 </div>
             </div>
-            <div class="container subscribe_form_module">
-            <div class="subscribe_form">
-                <form class="subscribe_form1" action="#">
-                    <h1 class="subscribe_form1_text">Your name</h1>
-                    <input class="input_form" type="text" placeholder="First Name" required pattern="[a-zA-Z]+$">
-                    <input class="input_form" type="text" placeholder="Last Name" required pattern="[a-zA-Z]+$">
-                    <h1 class="subscribe_form1_text">Login Details</h1>
-                    <input class="input_form" type="email" name="" id="" placeholder="email@mail.com" required>
-                    <input class="input_form" type="password" name="" id="" placeholder="Password" autocomplete="on" required minlength="8">  
-                    <p class="subscribe_form1_p">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
-                     <button class="button_submit" type="submit">
-                         Join Now <img class="submit_arrow" src="img/Sumbit_arrow.svg" alt=""></button>
-                </form>
-                
-            </div>
-            <div class="subscribe_text_reg">
-                <h1 class="subscribe_text_tittle">LOYALTY HAS ITS PERKS</h1>
-                <p class="subscribe_text_paragraph">Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
-                    <ul class="subscribe_text_list">
-                        <li class="subscribe_text_list_link">15% off welcome offer</li>
-                        <li class="subscribe_text_list_link">Free shipping, returns and exchanges on all orders</li>
-                        <li class="subscribe_text_list_link">$10 off a purchase on your birthday</li>
-                        <li class="subscribe_text_list_link">Early access to products</li>
-                        <li class="subscribe_text_list_link">Exclusive offers & rewards</li>
-                    </ul>
-
-            </div>    
+            <div class="container shopping_cart_module">
+                <div class="shopping_cart_module_flex">
+                    <div class="shopping_cart_items">
+                        <div class="shopping_cart_items_card cart_card1">
+                            <img class="cart_img" src="img/catalog_3.png" alt="">
+                            <div class="cart_card_descr">
+                                <div class="cart_card_descr_main">
+                                    <div class="cart_card_descr_main_flex">
+                                    <h1>MANGO PEOPLE <br> T-SHIRT</h1>
+                                    <img src="img/Exit.svg" alt=""> 
+                                    </div>
+                                    <div class="cart_card_price">
+                                            <h1>Price:</h1>
+                                            <h1>$300</h1>
+                                    </div>
+                                    <div class="cart_card_color">
+                                            <h1>Color:</h1>
+                                            <h1>Red</h1>
+                                    </div>
+                                    <div class="cart_card_size">
+                                            <h1>Size:</h1>
+                                            <h1>XL</h1>
+                                    </div>
+                                    <div class="cart_card_quantity">
+                                            <h1>Quantity:</h1>
+                                            <input class="cart_card_quantity_input" type="text" name="" id="" required pattern="\d [0-9]">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shopping_cart_items_card cart_card_2">
+                            <img class="cart_img" src="img/catalog_2.png" alt="">
+                            <div class="cart_card_descr">
+                                <div class="cart_card_descr_main">
+                                    <div class="cart_card_descr_main_flex">
+                                    <h1>MANGO PEOPLE <br> T-SHIRT</h1>
+                                    <img src="img/Exit.svg" alt=""> 
+                                    </div>
+                                    <div class="cart_card_price">
+                                            <h1>Price:</h1>
+                                            <h1>$300</h1>
+                                    </div>
+                                    <div class="cart_card_color">
+                                            <h1>Color:</h1>
+                                            <h1>Red</h1>
+                                    </div>
+                                    <div class="cart_card_size">
+                                            <h1>Size:</h1>
+                                            <h1>XL</h1>
+                                    </div>
+                                    <div class="cart_card_quantity">
+                                            <h1>Quantity:</h1>
+                                            <input type="text" name="" id="" required pattern="\d [0-9]">
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="shopping_cart_items_button_flex">
+                            <a class="shopping_cart_button" href="">CLEAR SHOPPING CART</a>
+                            <a class="shopping_cart_button" href="">CONTINUE SHOPPING</a>
+                        </div>
+                    </div>
+                    <div class="shopping_cart_checkout">
+                        <div class="shopping_cart_adress">
+                            <h1 class="cart_adress_form_title">Shipping adress</h1>
+                            <form class="shopping_cart_adress_form" action="" method="get">
+                                <input class="cart_adress_form" type="text" name="" id="" placeholder="Bangladesh" required pattern="[a-zA-Z]+$">
+                                <input class="cart_adress_form" type="text" name="" id="" placeholder="State" required pattern="[a-zA-Z]+$">
+                                <input class="cart_adress_form" type="text" name="" id="" placeholder="Postcode / Zip" required pattern="\d [0-9]">
+                                <button class="cart_quote_button">Get a quote</button>
+                            </form>
+                            <div class="shopping_cart_proceed_module">
+                                <div class="shopping_cart_checkout_subtotal">
+                                <h3 class="shopping_cart_checkout_subtext">Sub Total</h3>
+                                <h3 class="shopping_cart_checkout_subtext">$900</h3>
+                                </div>
+                                <div class="shopping_cart_checkout_grandtotal">
+                                <h1 class="shopping_cart_checkout_grandtext">Grand Total</h1>
+                                <h1 class="shopping_cart_checkout_grandtext">$900</h1>
+                                </div>
+                                <a class="cart_proceed_button" href="">Proceed to checkout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             
-            <div class="subscribe_module">
+            <div class="subscribe_module cart_page">
                 <div class="subscribe_flex container">
                     <div class="wishes">
                         <img src="img/wishes_img.png" alt="photo">
