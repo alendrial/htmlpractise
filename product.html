@@ -10,72 +10,75 @@
 </head>
 <body>
     <div class="wrapper"> <!--Обернули враппер всей страницы-->
-        <div class="main_page_content"> <!--Весь контент страницы-->
-            <header class="header_module">
+        <header class="main_page_content"> <!--Весь контент страницы-->
+            <div class="header_module">
                 <nav class="header_menu_back"> <!--Меню и контент хэда-->
-                <div class="header_menu container"> <!--Меню в хэде-->
-                    <div class="header_left"> 
-                        <a class="menu_icon1" href="index.html"><img class="menu_icon1_anim"src="img/Group2.svg" alt="main_page_icon"></a>
-                        <a href="product.html"><img class="menu_icon1_anim" src="img/Search.svg" alt="search_icon"></a>                  
-                        
+                    <div class="header_menu container"> <!--Меню в хэде-->
+                        <div class="header_left"> 
+                            <a class="menu_icon1" href="index.html"><img class="menu_icon1_anim"src="img/Group2.svg" alt="main_page_icon"></a>
+                            <a href="product.html"><img class="menu_icon1_anim" src="img/Search.svg" alt="search_icon"></a>                  
+                            
+                        </div>
+                        <div class="header_right">
+                            <a class="menu_icon2" href="catalog.html"><img class="menu_icon2_anim" src="img/Catalog.svg" alt="catalog_icon"></a>
+                            <a class="menu_icon2" href="registration.html"><img class="menu_icon2_anim" src="img/Contacts.svg" alt="contact_icon"></a>
+                            <a class="menu_icon2" href="cart.html"><img class="menu_icon2_anim" src="img/Basket.svg" alt="basket_icon"></a>
+                        </div>
+                    </div> 
+                </nav> 
+            </div>
+                <div class="header_catalog_module">
+                <div class="container header_catalog_module_flex">
+                    <div class="header_catalog_module_title">
+                        <a class="header_catalog_title_text" href="">New Arrivals</a>
                     </div>
-                    <div class="header_right">
-                        <a class="menu_icon2" href="catalog.html"><img class="menu_icon2_anim" src="img/Catalog.svg" alt="catalog_icon"></a>
-                        <a class="menu_icon2" href="registration.html"><img class="menu_icon2_anim" src="img/Contacts.svg" alt="contact_icon"></a>
-                        <a class="menu_icon2" href="cart.html"><img class="menu_icon2_anim" src="img/Basket.svg" alt="basket_icon"></a>
+                    <div class="header_catalog_module_category">
+                        <a class="header_catalog_categ_link" href="">Home</a> /
+                        <a class="header_catalog_categ_link" href="" >Men</a> /
+                        <a class="header_catalog_categ_link" href="" >Arrivals</a>
                     </div>
                 </div> 
-                </nav> 
-            
-            <div class="header_content"> <!--Контент в хэде-->
-                <div class="head_menu_module">
-                    <a class="menu_block_exit" href=""><img src="img/Exit.svg" alt=""></a>
-                    <a class="menu_block" href="">MENU</a>
-                    <a class="menu_block_main" href="">MAN</a>
-                    <a class="menu_block_link" href="">Accesories</a>
-                    <a class="menu_block_link" href="">Bags</a>
-                    <a class="menu_block_link" href="">Denim</a>
-                    <a class="menu_block_link" href="">T-Shirts</a>
-                    <a class="menu_block_main" href="">WOMAN</a>
-                    <a class="menu_block_link" href="">Accesories</a>
-                    <a class="menu_block_link" href="">Jacket & Coats</a>
-                    <a class="menu_block_link" href="">Polos</a>
-                    <a class="menu_block_main" href="">KIDS</a>
-                    <a class="menu_block_link" href="">Accesories</a>
-                    <a class="menu_block_link" href="">Jacket & Coats</a>
-                    <a class="menu_block_link" href="">Polos</a>
-                    <a class="menu_block_link" href="">T-Shirts</a>
-                    <a class="menu_block_link" href="">Bags</a>
                 </div>
-                <div class="container head_content_flex"> <!--Модуль для флекса-->
-                        <div class="head_content_title">
-                        <h1 class="head_title_text"><span class="title_text_bold">THE BRAND</span> of&nbsp;LUXERIOUS <span class="title_decor">FASHION</span></h1>
+                <div class="header_product_module">
+                    <div >
+                        <a class="left_select" href="">
+                        <svg width="12.4" height="21.7" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="page_fill" d="M8.99512 2L3.99512 7L8.99512 12L7.99512 14L0.995117 7L7.99512 0L8.99512 2Z" fill="black"/>
+                        </svg>    
+                        </a>
                     </div>
-                    
+                    <img src="img/Product_img.png" alt="">
+                    <div >
+                        <a class="right_select"  href=""><svg width="12.4" height="21.7" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="page_fill" d="M0.994995 12L5.995 7L0.994995 2L1.995 0L8.995 7L1.995 14L0.994995 12Z" fill="black"/>
+                        </svg>
+                        </a>
+                    </div>
                 </div>
-            </div> 
-            </header>
-            <main>
-            <div class="category_module"> <!--Модуль контента-->
-                <div class="container category_module_flex"> <!--Модуль контента флекс-->
-                    <div class="category_item card1">
-                        <a href="" class="card_text">30% OFF <br> <span class="title_decor card_text_decor">FOR WOMEN</span></a>
-                    </div>
-                    <div class="category_item card2">
-                        <a href="" class="card_text">HOT DEAL <br> <span class="title_decor card_text_decor">FOR MAN</span></a>
-                    </div>
-                    <div class="category_item card3">
-                        <a class="card_text" href="#">NEW ARRIVALS <br> <span class="title_decor card_text_decor">FOR KIDS</span></a>
-                    </div>
-                    <div class="category_item card4">
-                       <a class="card_text" href="#">LUXIROUS & TRENDY <br> <span class="title_decor card_text_decor">ACCESORIES</span></a>
-                    </div>
+                <div class="container header_product_descr">
+
                 </div>
             </div>
-            <div class="container featured_items_module">
-                <div class="featured_items_text">
-                    <h2 class="featured_items_heading">Fetured Items</h1>
-                    <p class="featured_items_paragraph">Shop for items based on what we featured in this week</p>
+            <main>
+            <div class="container catalog_items_module">
+                <div class="catalog_items_filter">
+                    <details class="filter_category">
+                        <summary class="filter_category_summary">Filter</summary>
+                        <ul>
+                        <li></li>
+                        </ul>
+                    </details>
+                <div class="filter_category_tsp_module">
+                <details class="filter_category_tsp">
+                    <summary class="filter_category_tsp_sum">Trending Now</summary>
+                </details>
+                <details class="filter_category_tsp">
+                    <summary class="filter_category_tsp_sum">Size</summary>
+                </details>
+                <details class="filter_category_tsp">
+                    <summary class="filter_category_tsp_sum">Price</summary>
+                </details>
+                </div>
                 </div>
                 <div class="featured_items">
                     <div class="featured_items_card">
@@ -93,7 +96,7 @@
                     </div>
                     <div class="featured_items_card">
                         <div class="shadow_card">
-                        <img class="featured_items_img" src="img/img2.png" alt="ELLERY X M'O CAPSULE">
+                        <img class="featured_items_img" src="img/catalog_3.png" alt="ELLERY X M'O CAPSULE">
                         <a class="featured_items_img_button" href=""><img class="img_button_basket" src="img/Basket_card.svg" alt="or"> Add to card</a>
                         </div>
                         <div class="description_card">
@@ -103,82 +106,26 @@
                         <a class="featured_items_card_price" href="#">52.00</a>
                         </div>
                         </div>
-                    </div>
-                    <div class="featured_items_card">
-                        <div class="shadow_card">
-                        <img class="featured_items_img" src="img/img3.png" alt="ELLERY X M'O CAPSULE">
-                        <a class="featured_items_img_button" href=""><img class="img_button_basket" src="img/Basket_card.svg" alt="or"> Add to card</a>
-                        </div>
-                        <div class="description_card">
-                        <a class="featured_items_link" href=""><h4 class="featured_items_card_heading">ELLERY X M'O CAPSULE</h4></a>
-                        <p class="featured_items_card_paragraph">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                        <div class="card_price">
-                        <a class="featured_items_card_price" href="#">52.00</a>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="featured_items_card">
-                        <div class="shadow_card">
-                        <img class="featured_items_img" src="img/img4.png" alt="ELLERY X M'O CAPSULE">
-                        <a class="featured_items_img_button" href=""><img class="img_button_basket"src="img/Basket_card.svg" alt="or"> Add to card</a>
-                        </div>
-                        <div class="description_card">
-                        <a class="featured_items_link" href=""><h4 class="featured_items_card_heading">ELLERY X M'O CAPSULE</h4></a>
-                        <p class="featured_items_card_paragraph">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                        <div class="card_price">
-                        <a class="featured_items_card_price" href="#">52.00</a>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="featured_items_card">
-                        <div class="shadow_card">
-                        <img class="featured_items_img" src="img/img5.png" alt="ELLERY X M'O CAPSULE">
-                        <a class="featured_items_img_button" href=""><img class="img_button_basket" src="img/Basket_card.svg" alt="or"> Add to card</a>
-                        </div>
-                        <div class="description_card">
-                        <a class="featured_items_link" href=""><h4 class="featured_items_card_heading">ELLERY X M'O CAPSULE</h4></a>
-                        <p class="featured_items_card_paragraph">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                        <div class="card_price">
-                        <a class="featured_items_card_price" href="#">52.00</a>
-                        </div>
-                         </div>
                     </div>
                     <div class="featured_items_card">
                         <div class="shadow_card">
                         <img class="featured_items_img" src="img/img6.png" alt="ELLERY X M'O CAPSULE">
-                        <a class="featured_items_img_button" href=""><img src="img/Basket_card.svg" alt="or"> Add to card</a>
+                        <a class="featured_items_img_button" href=""><img class="img_button_basket" src="img/Basket_card.svg" alt="or"> Add to card</a>
                         </div>
                         <div class="description_card">
                         <a class="featured_items_link" href=""><h4 class="featured_items_card_heading">ELLERY X M'O CAPSULE</h4></a>
                         <p class="featured_items_card_paragraph">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                        <div class="card_price"><a class="featured_items_card_price" href="#">52.00</a>
+                        <div class="card_price">
+                        <a class="featured_items_card_price" href="#">52.00</a>
                         </div>
                         </div>
-                        
                     </div>
-                </div>
-                <div class="buttun_flex_center"><a class="catalog_button" href="catalog.html">Browse All Product</a></div>
-            </div>
-            <div class="benefits">
-                <div class="container benefit_card_flex">
-                <div class="benefits_card">
-                    <img class="benefits_img" src="img/car.svg" alt="car">
-                    <h3 class="benefits_heading">Free Delivery</h3>
-                    <p class="benefits_paragraph">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-                </div>
-                <div class="benefits_card">
-                    <img class="benefits_img" src="img/discount.svg" alt="discount">
-                    <h3 class="benefits_heading">Sales & discounts</h3>
-                    <p class="benefits_paragraph">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-                </div>
-                <div class="benefits_card">
-                    <img class="benefits_img" src="img/crown.svg" alt="car">
-                    <h3 class="benefits_heading">Quality assurance</h3>
-                    <p class="benefits_paragraph">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                    
                 </div>
             </div>
-            </div>
-            <div class="subscribe_module">
+            
+
+            <div class="subscribe_module_product">
                 <div class="subscribe_flex container">
                     <div class="wishes">
                         <img src="img/wishes_img.png" alt="photo">
@@ -196,8 +143,8 @@
                     </div>
                 </div>
             </div>
-            </main>
-        </div>
+        </header>
+        </main>
         <footer class="footer">
         <div class="container footer_flex">
             <div class="footer_text">
@@ -248,7 +195,7 @@
                 
             </div>
         </div>
-    </footer>
+        </footer>
     </div>   
 </body>
 </html>

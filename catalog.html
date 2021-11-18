@@ -11,21 +11,21 @@
 <body>
     <div class="wrapper"> <!--Обернули враппер всей страницы-->
         <div class="main_page_content"> <!--Весь контент страницы-->
-            <div class="header_module">
-                <div class="header_menu_back"> <!--Меню и контент хэда-->
+            <header class="header_module">
+                <nav class="header_menu_back"> <!--Меню и контент хэда-->
                 <div class="header_menu container"> <!--Меню в хэде-->
                     <div class="header_left"> 
                         <a class="menu_icon1" href="index.html"><img class="menu_icon1_anim"src="img/Group2.svg" alt="main_page_icon"></a>
-                        <a href=""><img class="menu_icon1_anim" src="img/Search.svg" alt="search_icon"></a>                  
+                        <a href="product.html"><img class="menu_icon1_anim" src="img/Search.svg" alt="search_icon"></a>                  
                         
                     </div>
                     <div class="header_right">
-                        <a class="menu_icon2" href=""><img class="menu_icon2_anim" src="img/Catalog.svg" alt="catalog_icon"></a>
-                        <a class="menu_icon2" href=""><img class="menu_icon2_anim" src="img/Contacts.svg" alt="contact_icon"></a>
-                        <a class="menu_icon2" href=""><img class="menu_icon2_anim" src="img/Basket.svg" alt="basket_icon"></a>
+                        <a class="menu_icon2" href="catalog.html"><img class="menu_icon2_anim" src="img/Catalog.svg" alt="catalog_icon"></a>
+                        <a class="menu_icon2" href="registration.html"><img class="menu_icon2_anim" src="img/Contacts.svg" alt="contact_icon"></a>
+                        <a class="menu_icon2" href="cart.html"><img class="menu_icon2_anim" src="img/Basket.svg" alt="basket_icon"></a>
                     </div>
                 </div> 
-                </div>
+                </nav>
                 <div class="header_catalog_module">
                 <div class="container header_catalog_module_flex">
                     <div class="header_catalog_module_title">
@@ -38,19 +38,27 @@
                     </div>
                 </div>   
                 </div>
-            </div>
-            
+            </header>
+            <main>
             <div class="container catalog_items_module">
                 <div class="catalog_items_filter">
                     <details class="filter_category">
-                        <summary class="filter_category_summary">filter</summary>
+                        <summary class="filter_category_summary">Filter</summary>
                         <ul>
                         <li></li>
                         </ul>
                     </details>
-                <details>
-                    <summary>price</summary>
+                <div class="filter_category_tsp_module">
+                <details class="filter_category_tsp">
+                    <summary class="filter_category_tsp_sum">Trending Now</summary>
                 </details>
+                <details class="filter_category_tsp">
+                    <summary class="filter_category_tsp_sum">Size</summary>
+                </details>
+                <details class="filter_category_tsp">
+                    <summary class="filter_category_tsp_sum">Price</summary>
+                </details>
+                </div>
                 </div>
                 <div class="featured_items">
                     <div class="featured_items_card">
@@ -68,7 +76,7 @@
                     </div>
                     <div class="featured_items_card">
                         <div class="shadow_card">
-                        <img class="featured_items_img" src="img/img2.png" alt="ELLERY X M'O CAPSULE">
+                        <img class="featured_items_img" src="img/catalog_2.png" alt="ELLERY X M'O CAPSULE">
                         <a class="featured_items_img_button" href=""><img class="img_button_basket" src="img/Basket_card.svg" alt="or"> Add to card</a>
                         </div>
                         <div class="description_card">
@@ -81,7 +89,7 @@
                     </div>
                     <div class="featured_items_card">
                         <div class="shadow_card">
-                        <img class="featured_items_img" src="img/img3.png" alt="ELLERY X M'O CAPSULE">
+                        <img class="featured_items_img" src="img/catalog_3.png" alt="ELLERY X M'O CAPSULE">
                         <a class="featured_items_img_button" href=""><img class="img_button_basket" src="img/Basket_card.svg" alt="or"> Add to card</a>
                         </div>
                         <div class="description_card">
@@ -94,7 +102,7 @@
                     </div>
                     <div class="featured_items_card">
                         <div class="shadow_card">
-                        <img class="featured_items_img" src="img/img4.png" alt="ELLERY X M'O CAPSULE">
+                        <img class="featured_items_img" src="img/catalog_4.png" alt="ELLERY X M'O CAPSULE">
                         <a class="featured_items_img_button" href=""><img class="img_button_basket"src="img/Basket_card.svg" alt="or"> Add to card</a>
                         </div>
                         <div class="description_card">
@@ -107,7 +115,7 @@
                     </div>
                     <div class="featured_items_card">
                         <div class="shadow_card">
-                        <img class="featured_items_img" src="img/img5.png" alt="ELLERY X M'O CAPSULE">
+                        <img class="featured_items_img" src="img/catalog_5.png" alt="ELLERY X M'O CAPSULE">
                         <a class="featured_items_img_button" href=""><img class="img_button_basket" src="img/Basket_card.svg" alt="or"> Add to card</a>
                         </div>
                         <div class="description_card">
@@ -120,7 +128,46 @@
                     </div>
                     <div class="featured_items_card">
                         <div class="shadow_card">
-                        <img class="featured_items_img" src="img/img6.png" alt="ELLERY X M'O CAPSULE">
+                        <img class="featured_items_img" src="img/catalog_6.png" alt="ELLERY X M'O CAPSULE">
+                        <a class="featured_items_img_button" href=""><img src="img/Basket_card.svg" alt="or"> Add to card</a>
+                        </div>
+                        <div class="description_card">
+                        <a class="featured_items_link" href=""><h4 class="featured_items_card_heading">ELLERY X M'O CAPSULE</h4></a>
+                        <p class="featured_items_card_paragraph">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <div class="card_price"><a class="featured_items_card_price" href="#">52.00</a>
+                        </div>
+                        </div>
+                        
+                    </div>
+                    <div class="featured_items_card">
+                        <div class="shadow_card">
+                        <img class="featured_items_img" src="img/catalog_7.png" alt="ELLERY X M'O CAPSULE">
+                        <a class="featured_items_img_button" href=""><img src="img/Basket_card.svg" alt="or"> Add to card</a>
+                        </div>
+                        <div class="description_card">
+                        <a class="featured_items_link" href=""><h4 class="featured_items_card_heading">ELLERY X M'O CAPSULE</h4></a>
+                        <p class="featured_items_card_paragraph">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <div class="card_price"><a class="featured_items_card_price" href="#">52.00</a>
+                        </div>
+                        </div>
+                        
+                    </div>
+                    <div class="featured_items_card">
+                        <div class="shadow_card">
+                        <img class="featured_items_img" src="img/catalog_8.png" alt="ELLERY X M'O CAPSULE">
+                        <a class="featured_items_img_button" href=""><img src="img/Basket_card.svg" alt="or"> Add to card</a>
+                        </div>
+                        <div class="description_card">
+                        <a class="featured_items_link" href=""><h4 class="featured_items_card_heading">ELLERY X M'O CAPSULE</h4></a>
+                        <p class="featured_items_card_paragraph">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <div class="card_price"><a class="featured_items_card_price" href="#">52.00</a>
+                        </div>
+                        </div>
+                        
+                    </div>
+                    <div class="featured_items_card">
+                        <div class="shadow_card">
+                        <img class="featured_items_img" src="img/catalog_9.png" alt="ELLERY X M'O CAPSULE">
                         <a class="featured_items_img_button" href=""><img src="img/Basket_card.svg" alt="or"> Add to card</a>
                         </div>
                         <div class="description_card">
@@ -132,8 +179,30 @@
                         
                     </div>
                 </div>
-                <div class="buttun_flex_center"><a class="catalog_button" href="#">Browse All Product</a></div>
+                <div class="catalog_page">
+                    <div class="catalog_page_flex">
+                        <a class="catalog_page_button" href="#">
+                            <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="page_fill" d="M8.99512 2L3.99512 7L8.99512 12L7.99512 14L0.995117 7L7.99512 0L8.99512 2Z" fill="black"/>
+                            </svg>
+                        </a>
+                        <a class="catalog_page_button" href="#">1</a>
+                        <a class="catalog_page_button" href="#">2</a>
+                        <a class="catalog_page_button" href="#">3</a>
+                        <a class="catalog_page_button" href="#">4</a>
+                        <a class="catalog_page_button" href="#">5</a>
+                        <a class="catalog_page_button" href="#">6</a>
+                        <a class="catalog_page_button" href="#">....</a>
+                        <a class="catalog_page_button" href="#">20</a>
+                        <a class="catalog_page_button" href="#">
+                            <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="page_fill" d="M0.994995 12L5.995 7L0.994995 2L1.995 0L8.995 7L1.995 14L0.994995 12Z" fill="black"/>
+                            </svg>
+                            </a>
+                    </div>
+                </div>
             </div>
+            
             <div class="benefits">
                 <div class="container benefit_card_flex">
                 <div class="benefits_card">
@@ -165,14 +234,15 @@
                         <span class="subscribe_text_decor">FOR OUR NEWLETTER AND PROMOTION</span></h1>
                         <form class="subscribe_button" action="#"> 
                         
-                        <input class="input_email" type="email" name="email" id="email" placeholder="Enter Your Email">
+                        <input class="input_email" type="email" name="email" id="email" required placeholder="Enter Your Email">
                         <button class="input_submit" type="submit">Subscribe</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer">
+        </main>
+        <footer class="footer">
         <div class="container footer_flex">
             <div class="footer_text">
                 <h1 class="footer_text_decor">© 2021 Brand All Rights Reserved.</h1>
@@ -222,7 +292,7 @@
                 
             </div>
         </div>
-        </div>
+        </footer>
     </div>   
 </body>
 </html>
