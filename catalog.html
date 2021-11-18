@@ -11,8 +11,8 @@
 <body>
     <div class="wrapper"> <!--Обернули враппер всей страницы-->
         <div class="main_page_content"> <!--Весь контент страницы-->
-            <div class="header_module">
-                <div class="header_menu_back"> <!--Меню и контент хэда-->
+            <header class="header_module">
+                <nav class="header_menu_back"> <!--Меню и контент хэда-->
                 <div class="header_menu container"> <!--Меню в хэде-->
                     <div class="header_left"> 
                         <a class="menu_icon1" href="index.html"><img class="menu_icon1_anim"src="img/Group2.svg" alt="main_page_icon"></a>
@@ -20,12 +20,12 @@
                         
                     </div>
                     <div class="header_right">
-                        <a class="menu_icon2" href=""><img class="menu_icon2_anim" src="img/Catalog.svg" alt="catalog_icon"></a>
+                        <a class="menu_icon2" href="catalog.html"><img class="menu_icon2_anim" src="img/Catalog.svg" alt="catalog_icon"></a>
                         <a class="menu_icon2" href="registration.html"><img class="menu_icon2_anim" src="img/Contacts.svg" alt="contact_icon"></a>
                         <a class="menu_icon2" href="cart.html"><img class="menu_icon2_anim" src="img/Basket.svg" alt="basket_icon"></a>
                     </div>
                 </div> 
-                </div>
+                </nav>
                 <div class="header_catalog_module">
                 <div class="container header_catalog_module_flex">
                     <div class="header_catalog_module_title">
@@ -38,8 +38,8 @@
                     </div>
                 </div>   
                 </div>
-            </div>
-            
+            </header>
+            <main>
             <div class="container catalog_items_module">
                 <div class="catalog_items_filter">
                     <details class="filter_category">
@@ -241,7 +241,8 @@
                 </div>
             </div>
         </div>
-        <div class="footer">
+        </main>
+        <footer class="footer">
         <div class="container footer_flex">
             <div class="footer_text">
                 <h1 class="footer_text_decor">© 2021 Brand All Rights Reserved.</h1>
@@ -291,7 +292,7 @@
                 
             </div>
         </div>
-        </div>
+        </footer>
     </div>   
 </body>
 </html>
