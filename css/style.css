@@ -834,7 +834,8 @@ background: #F8F8F8;
 }
 .container_product_descr {
     text-align: center;
-    max-width: 651px;
+    max-width: 641px;
+    margin: auto;
 }
 .product_items_module{
     margin-top: 128px;
@@ -904,12 +905,19 @@ background: #F8F8F8;
 }
 .string_red {
     display: block;
-    width: 63px;
+    max-width: 63px;
     height: 3px;
     background: #EF5B70;
     border: 0px;
-    align-self: center;
-    margin-left: 289px;
+    margin:auto;
+}
+.string_grey {
+    display: block;
+    max-width: 641px;
+    height: 1px;
+    background: #EAEAEA;
+    border: 0px;
+    margin:auto;
 }
 .main_product_descr_name {
     display: block;
@@ -935,9 +943,14 @@ background: #F8F8F8;
     font-size: 24px;
     line-height: 29px;
     color: #EF5B70;
+    padding-bottom: 65px;
 }
 .main_product_descr_price:before {
     content: "$";
+}
+.main_product_button_flex {
+    display: flex;
+    justify-content: center;
 }
 .main_product_button {
         margin-top: 48px;
