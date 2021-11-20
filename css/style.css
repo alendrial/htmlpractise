@@ -1106,7 +1106,9 @@ background: #F8F8F8;
 .shopping_cart_checkout_subtotal, .shopping_cart_checkout_grandtotal {
     display: flex;
     justify-content: flex-end;
-   
+}
+.shopping_cart_checkout_grandtotal {
+    margin-top: 12px;
 }
 
 .shopping_cart_items_button_flex {
@@ -1183,6 +1185,7 @@ background: #F8F8F8;
 }
 
 .shopping_cart_checkout_subtext {
+    font-weight: 400;
     font-size: 11px;
     line-height: 13px;
     color: #4A4A4A;
@@ -1198,5 +1201,9 @@ background: #F8F8F8;
     color: #222222;
 }
 .shopping_cart_checkout_grandtext:last-child {
-    color: #F16D7F;;
+    color: #F16D7F;
+    font-weight: 700;
+}
+.sub1, .grand1 {
+    margin-right: 30px;
 }
