@@ -71,20 +71,26 @@ body {
     
     
 }
+
+
 .head_menu_module{
     display: flex;
     flex-direction: column;
     position: absolute;
-    right: 0px;
+    right: 0px; /*чисто для анимации, 0 для статики*/
     height: 764px;
     width: 232px;
     background: #FFFFFF;
     box-shadow: 0px 19px 11px 0px rgba(0, 0, 0, 0.24);
+    opacity: 1;
     
     
 }
-.menu_icon2_anim:active .head_menu_module {
-    
+
+.head_menu_module:hover {
+    opacity: 1;
+    transform: translateX(-210px);
+    transition: 1.5s;
 }
 
 
