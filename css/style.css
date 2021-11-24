@@ -845,8 +845,8 @@ background: #F8F8F8;
 .left_select, .right_select {
     display: block;
     background: rgba(42, 42, 42, 0.15);
-    padding: 12.6px 17.3px 8.9px 17.3px
-     
+    padding: 12.6px 17.3px 8.9px 17.3px;
+    border: 0px;
 }
 
 .left_select:hover .page_fill {
@@ -855,10 +855,10 @@ background: #F8F8F8;
 .right_select:hover .page_fill {
     fill: #EF5B70;;
 }
+
 .main_product_module {
-    margin-top: -60px;
-    z-index: 2;
-    
+    margin-top: -50px;
+    z-index: 2;  
 }
 
 .main_product_descr {
