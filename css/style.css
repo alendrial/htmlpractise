@@ -577,14 +577,21 @@ background: #F8F8F8;
     
 }
 .catalog_items_filter {
-    display: flex;
-    position: relative;
+    position: absolute;
+    z-index: 3;
+    top: 30px;
 }
+
 .filter_category {
     display: block;
     padding: 13px 16px 16px 16px;
     width: 360px;
     /*position: absolute;*/ 
+}
+.filter_category_container {
+    
+    background: #FFFFFF;
+    
 }
 
 .filter_category_summary {
@@ -595,13 +602,26 @@ background: #F8F8F8;
     color: #000000;
     text-transform: uppercase;
 }
-
-.filter_category_summary:after {
-    content: url(../img/catalog_filter.svg);
-    padding-left: 11px;
+.filter_category_summary_img {
+    margin-left: 11px;
+    fill: black;
 }
-
-
+.filter_category[open] .filter_category_summary {
+    color: #F16D7F;
+}
+.filter_category[open] .filter_category_summary_img {
+    fill: #F16D7F;
+}
+.filter_category_tsp_img {
+    margin-left: 11px;
+    fill: black;
+}
+.filter_category_tsp[open] .filter_category_tsp_sum {
+    color: #F16D7F;
+}
+.filter_category_tsp[open] .filter_category_tsp_img {
+    fill: #F16D7F;
+}
 
 .filter_category_title {
         margin-top: 16px;
@@ -637,16 +657,17 @@ background: #F8F8F8;
     text-transform: uppercase;
     outline: none;
 }
-.filter_category[open] {
+.filter_category[open], .filter_category_tsp[open] {
     box-shadow: 0px 0px 20px 7px rgba(34, 60, 80, 0.2);
 }
 .filter_category_tsp_module {
     display: flex;
-    margin-left: 30px;
     gap: 28px;
     padding-top: 13px;
-    width: fit-content;
 
+}
+.filter_category_tsp_module_container {
+    position: absolute;
 }
 
 
@@ -664,10 +685,7 @@ background: #F8F8F8;
 .filter_category_tsp_sum {
     display: block;
 }
-.filter_category_tsp_sum:after {
-    content: url(../img/filter_v.svg);
-    padding-left: 11px;
-}
+
 .catalog_page {
     display: flex;
     justify-content: center;
@@ -718,6 +736,9 @@ background: #F8F8F8;
     fill: #EF5B70;
 }
 
+.featured_items_marg_cat {
+    margin-top: 0px;
+}
 /*РЕГИСТРАЦИЯ*/
 .header_reg_module_flex {
     display: flex;
@@ -864,6 +885,7 @@ background: #F8F8F8;
 
 }
 
+
 /*PRODUCT*/
 .subscribe_module_product {
     margin-top: 128px;
@@ -940,10 +962,7 @@ background: #F8F8F8;
     text-transform: uppercase;
 }
 
-.filter_category_summary:after {
-    content: url(../img/catalog_filter.svg);
-    padding-left: 11px;
-}
+
 .filter_category_tsp_module {
     display: flex;
     margin-left: 30px;
@@ -965,10 +984,7 @@ background: #F8F8F8;
 .filter_category_tsp_sum {
     display: block;
 }
-.filter_category_tsp_sum:after {
-    content: url(../img/filter_v.svg);
-    padding-left: 11px;
-}
+
 
 .main_product_descr_title {
     display: block;
