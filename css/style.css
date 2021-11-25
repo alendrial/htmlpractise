@@ -1158,6 +1158,10 @@ body {
     font-weight: 300;
 
 }
+.shopping_cart_button:hover {
+    background: #F16D7F;
+    color: white;
+}
 .cart_adress_form_title {
     font-weight: 300;
     font-size: 16px;
@@ -1200,7 +1204,6 @@ body {
 
 .cart_proceed_button {
     margin-top: 16px;
-    
     display: block;
     padding: 16px 43px;
     text-decoration: none;
@@ -1212,6 +1215,9 @@ body {
     background: #F16D7F;
     border: 0px;
     align-items: center;  
+}
+.cart_proceed_button:hover {
+    transform: scale(1.1);
 }
 
 .shopping_cart_checkout_subtext {
