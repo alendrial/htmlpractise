@@ -1096,6 +1096,10 @@ body {
     line-height: 26px;
     color: #575757;
 }
+.parametr_text_decor {
+    color: #F16D7F;
+}
+
 
 .cart_card_quantity_input {
     width: 43px;
