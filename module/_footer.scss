@@ -1,0 +1,32 @@
+/*FOOTER*/
+
+.footer {
+    background: #222224;
+    padding: 30px 0px;
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__text {
+        h1 {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FBFBFB;
+        }
+    }
+    &__icons {
+        
+    }
+    .foot_icon {
+        background: white;
+        &:hover {
+            background: #F16D7F;
+            .icon_color {
+                fill: white;
+            }
+        }
+    }
+}
+/*FOOTER*/

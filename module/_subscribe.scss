@@ -1,0 +1,80 @@
+/*subscribe_GENERAL*/
+.cart_page {
+    margin-top: 128.5px;
+}
+.subscribe {
+    background-image: url(../img/subscribe_back.png);
+    background-repeat: round; /*тут можно без репита, то тогда при ширине >1598px белая полоса */
+    height: 100%;
+    width: auto;
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
+    &__wishes {
+        max-width: 360px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 86px;
+        padding-bottom: 174px;
+        p {
+            margin-top: 20px;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: #222224;
+        }
+    }
+    &__form {
+        max-width: 557px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 130px;
+        padding-bottom: 156px;
+        h1 {
+            text-align: center;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 40px;
+            text-align: center;
+            color: #222224;
+            span {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                margin-top: -8px;
+            }
+        }
+        
+    }
+    &__button {
+        margin-top: 32px;
+        width: 100%;
+        display: flex;
+        .input__email {
+            padding: 8px 0px 7px 22px;
+            background: #E1E1E1;
+            border: 0px;
+            border-radius: 15px 0px 0px 15px;
+            height: 49px;
+            width: 100%
+        }
+        .input__submit {
+            background: #F16D7F;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            margin-left: -5px;
+            padding: 7px 7px 6px 8px;
+            border: 0px;
+            border-radius: 0px 15px 15px 0px;
+            height: 49px;
+            width: 100%;
+            max-width: 100px;
+        }
+    }
+}
+/*subscribe_GENERAL*/
