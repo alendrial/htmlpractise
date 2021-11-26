@@ -118,13 +118,6 @@ body {
 }
 
 .shopping__cart__items {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   max-width: 652px;
   width: 100%;
 }
@@ -165,42 +158,6 @@ body {
   font-size: 24px;
   line-height: 29px;
   color: #222222;
-}
-
-.shopping__cart__items__card__price {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.shopping__cart__items__card__price h1 {
-  display: block;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
-  color: #575757;
-}
-
-.shopping__cart__items__card__price span {
-  color: #F16D7F;
-}
-
-.shopping__cart__items__card__color {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.shopping__cart__items__card__size {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.shopping__cart__items__card__quantity {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .shopping__cart__items__button {
@@ -356,22 +313,17 @@ body {
           transform: scale(1.1);
 }
 
-.cart__card2 {
+.item__parametrs {
   margin-top: 40px;
 }
 
-.cart_card_descr_title {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  color: #222222;
+.item__parametrs__price, .item__parametrs__color, .item__parametrs__size, .item__parametrs__quantity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.cart_card_descr_text {
-  margin-top: 42px;
-}
-
-.parametr_text {
+.item__parametrs__price h1, .item__parametrs__color h1, .item__parametrs__size h1, .item__parametrs__quantity h1 {
   display: block;
   font-weight: 400;
   font-size: 22px;
@@ -379,18 +331,18 @@ body {
   color: #575757;
 }
 
-.parametr_text_decor {
+.item__parametrs__price span, .item__parametrs__color span, .item__parametrs__size span, .item__parametrs__quantity span {
   color: #F16D7F;
 }
 
-.cart_card_quantity_input {
+.cart__card2 {
+  margin-top: 40px;
+}
+
+.quantity__input {
   width: 43px;
   text-align: center;
   margin-left: 24px;
-}
-
-.cart_img {
-  width: 262px;
 }
 
 /*CONTENT*/
