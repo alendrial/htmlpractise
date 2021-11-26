@@ -17,17 +17,21 @@ body {
     flex-direction: column;
     margin: 0 auto;
 }
-
-
-@import "../module/cart";
-/*CART.HTML*/
-/*FOOTER*/
-@import "../module/footer";
-/*FOOTER*/
-/*SUBSCRIBE*/
-@import "../module/subscribe";
-/*SUBSCRIBE*/
+.page {
+    flex-grow: 1    
+}
 /*HEADER*/
 @import "../module/header";
 /*HEADER*/
+/*CART.HTML*/
+@import "../module/cart";
+/*CART.HTML*/
+/*SUBSCRIBE*/
+@import "../module/subscribe";
+/*SUBSCRIBE*/
+/*FOOTER*/
+@import "../module/footer";
+/*FOOTER*/
+
+
 
