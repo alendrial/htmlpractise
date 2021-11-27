@@ -314,6 +314,10 @@ body {
 .shopping__cart__input__proceed__button:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+          transition: all 1.5s;
+  -webkit-transition: all 1.5s;
+
+
 }
 
 .item__parametrs {
