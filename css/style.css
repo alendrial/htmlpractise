@@ -48,10 +48,18 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .menu_icon1 {
+  display: inline-block;
   margin-right: 41px;
+}
+
+.menu_icon2 {
+  display: inline-block;
 }
 
 .menu_icon2:not(:last-child) {
@@ -92,6 +100,7 @@ body {
 }
 
 .head_menu_module {
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,23 +108,32 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  position: absolute;
-  right: 0px;
-  /*чисто для анимации, 0 для статики*/
+  margin-top: 18px;
+  left: 200px;
   height: 764px;
   width: 232px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 19px 11px 0px rgba(0, 0, 0, 0.24);
           box-shadow: 0px 19px 11px 0px rgba(0, 0, 0, 0.24);
   opacity: 1;
+  z-index: 3;
 }
 
 .head_menu_module:hover {
   opacity: 1;
-  -webkit-transform: translateX(-210px);
-          transform: translateX(-210px);
+  -webkit-transform: translateX(-232px) rotate(720deg);
+          transform: translateX(-232px) rotate(720deg);
   -webkit-transition: 1.5s;
   transition: 1.5s;
+}
+
+.new_details {
+  position: relative;
+}
+
+.test_block {
+  position: absolute;
+  background: white;
 }
 
 .menu_block_exit {

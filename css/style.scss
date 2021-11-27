@@ -34,15 +34,19 @@ body {
     padding-bottom: 17.5px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header_left {
 
 }
 .header_right {
-
 }
 .menu_icon1 {
+    display: inline-block;
     margin-right: 41px;
+}
+.menu_icon2 {
+    display: inline-block
 }
 .menu_icon2:not(:last-child) {
     margin-right: 33px;
@@ -69,20 +73,30 @@ body {
     padding-right: 99px;
 }
 .head_menu_module{
+    
+    position: absolute;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    right: 0px; /*чисто для анимации, 0 для статики*/
+    margin-top: 18px;
+    left: 200px;
     height: 764px;
     width: 232px;
     background: #FFFFFF;
     box-shadow: 0px 19px 11px 0px rgba(0, 0, 0, 0.24);
-    opacity: 1; 
+    opacity: 1;
+    z-index: 3; 
 }
 .head_menu_module:hover {
     opacity: 1;
-    transform: translateX(-210px);
+    transform: translateX(-232px) rotate(720deg);
     transition: 1.5s;
+}
+.new_details {
+    position: relative;
+}
+.test_block {
+    position: absolute;
+    background: white;
 }
 .menu_block_exit {
     align-self: end;
