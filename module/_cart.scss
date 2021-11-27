@@ -155,7 +155,8 @@
                 border: 0px;
                 align-items: center;
                 &:hover {
-                    transform: scale(1.1)
+                    transform: scale(1.1);
+                    transition: all 1.5s;
                 }  
             }
         } 
