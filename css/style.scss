@@ -533,10 +533,15 @@ body {
     width: 360px;
     background: white;
     
-}
-.filter_category[open] {
     
 }
+.filter_category[open] summary{
+        animation: sweep .5s ease-in-out;
+      }
+@keyframes sweep {
+        0%    {opacity: 0; transform: translateX(-10px)}
+        100%  {opacity: 1; transform: translateX(0)}
+      }
 .filter_category_summary {
     display: block;
     font-weight: 600;
@@ -565,6 +570,13 @@ body {
 .filter_category_tsp[open] .filter_category_tsp_img {
     fill: #F16D7F;
 }
+.filter_category_tsp[open] .filter_category_size_list{
+    animation: sweep .5s ease-in-out;
+  }
+@keyframes sweep {
+    0%    {opacity: 0; transform: translateY(-10px)}
+    100%  {opacity: 1; transform: translateY(0)}
+  }
 
 .filter_category_title {
     margin-top: 16px;
