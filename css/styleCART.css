@@ -263,10 +263,6 @@ body {
           justify-content: space-between;
 }
 
-.shopping__cart__input {
-  max-width: 360px;
-}
-
 .shopping__cart__input h1 {
   font-weight: 300;
   font-size: 16px;
@@ -295,6 +291,22 @@ body {
   line-height: 16px;
   color: #B1B1B1;
   border: 1px solid #A4A4A4;
+}
+
+.shopping__cart__input__form .cart__input__form:first-child::-webkit-input-placeholder {
+  color: #B1B1B1;
+}
+
+.shopping__cart__input__form .cart__input__form:first-child:-ms-input-placeholder {
+  color: #B1B1B1;
+}
+
+.shopping__cart__input__form .cart__input__form:first-child::-ms-input-placeholder {
+  color: #B1B1B1;
+}
+
+.shopping__cart__input__form .cart__input__form:first-child::placeholder {
+  color: #B1B1B1;
 }
 
 .shopping__cart__input__form .cart__quote__button {
@@ -453,6 +465,12 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  .shopping__cart__input__proceed {
+    margin-top: 39px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
 }
 
 @media (max-width: 768px) {
@@ -482,11 +500,49 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  .shopping__cart__input__proceed {
+    margin-top: 39px;
+  }
 }
 
 @media (max-width: 667px) {
   .container {
     max-width: 649px;
+  }
+  .shopping__cart {
+    margin-top: 49px;
+  }
+  .shopping__cart__flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .shopping__cart__items__button {
+    font-size: 12px;
+    text-transform: none;
+    padding: 9px 35px;
+  }
+  .shopping__cart__input {
+    margin-top: 48px;
+  }
+  .shopping__cart__input__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .shopping__cart__input__proceed {
+    margin-top: 48px;
   }
 }
 
