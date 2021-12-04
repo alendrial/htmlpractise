@@ -16,7 +16,8 @@
             box-shadow: 13px 10px 8px 4px rgba(0, 0, 0, 0.2);
             
             .cart_img {
-                width: 262px;
+                width: 100%;
+                max-width: 262px;
             }
             
             &__descr {
@@ -75,7 +76,8 @@
 
             .cart__input__form {
                 height: 45px;
-                width: 360px;
+                max-width: 360px;
+                width: 100%;
                 padding-left: 16px;
                 margin-top: 21px;
                 font-weight: 300;
@@ -91,7 +93,8 @@
             .cart__quote__button {
                 cursor: pointer;
                 height: 34px;
-                width: 100px;
+                max-width: 100px;
+                width: 100%;
                 text-transform: uppercase;
                 font-weight: 300;
                 font-size: 11px;
@@ -188,7 +191,7 @@
     margin-top: 40px;
 }
 .quantity__input {
-    width: 43px;
+    max-width: 43px;
     text-align: center;
     margin-left: 24px;
 }
