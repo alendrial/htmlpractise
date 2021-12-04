@@ -111,7 +111,7 @@ body {
   top: 45px;
   left: 200px;
   height: 764px;
-  width: 232px;
+  min-width: 232px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 19px 11px 0px rgba(0, 0, 0, 0.24);
           box-shadow: 0px 19px 11px 0px rgba(0, 0, 0, 0.24);
@@ -721,7 +721,7 @@ body {
 .filter_category {
   display: block;
   padding: 13px 16px 16px 16px;
-  width: 360px;
+  min-width: 360px;
   background: white;
 }
 
