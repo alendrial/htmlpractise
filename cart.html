@@ -13,16 +13,16 @@
         <div class="page"> <!--Весь контент страницы-->
             <header class="header">
                 <nav class="header__background"> <!--Меню и контент хэда-->
-                    <div class="header__menu container"> <!--Меню в хэде-->
+                    <div class="container header__menu"> <!--Меню в хэде-->
                         <div class="header__left"> 
-                            <a class="menu_icon1" href="index.html"><img class="menu_icon1_anim"src="img/Group2.svg" alt="main_page_icon"></a>
-                            <a href="product.html"><img class="menu_icon1_anim" src="img/Search.svg" alt="search_icon"></a>                  
+                            <a class="menu__icon1" href="index.html"><img class="menu__icon1__anim"src="img/Group2.svg" alt="main_page_icon"></a>
+                            <a href="product.html"><img class="menu__icon1__anim" src="img/Search.svg" alt="search_icon"></a>                  
                             
                         </div>
                         <div class="header__right">
-                            <a class="menu_icon2" href="catalog.html"><img class="menu_icon2_anim" src="img/Catalog.svg" alt="catalog_icon"></a>
-                            <a class="menu_icon2" href="registration.html"><img class="menu_icon2_anim" src="img/Contacts.svg" alt="contact_icon"></a>
-                            <a class="menu_icon2" href="cart.html"><img class="menu_icon2_anim" src="img/Basket.svg" alt="basket_icon"></a>
+                            <a class="menu__icon2" href="catalog.html"><img class="menu__icon2__anim" src="img/Catalog.svg" alt="catalog_icon"></a>
+                            <a class="menu__icon2" href="registration.html"><img class="menu__icon2__anim" src="img/Contacts.svg" alt="contact_icon"></a>
+                            <a class="menu__icon2" href="cart.html"><img class="menu__icon2__anim" src="img/Basket.svg" alt="basket_icon"></a>
                         </div>
                     </div> 
                 </nav> 
@@ -96,6 +96,8 @@
                         </div>
                     </div>
                     <div class="shopping__cart__input">
+                        <div class="shopping__cart__input__flex">
+                            <div class="shopping__cart__input__adress">
                             <h1>Shipping adress</h1>
                             <form class="shopping__cart__input__form" action="" method="get">
                                 <input class="cart__input__form" type="text" name="" id="" placeholder="Bangladesh" required pattern="[a-zA-Z]+$">
@@ -103,6 +105,7 @@
                                 <input class="cart__input__form" type="text" name="" id="" placeholder="Postcode / Zip" required pattern="\d [0-9]">
                                 <button class="cart__quote__button">Get a quote</button>
                             </form>
+                            </div>
                             <div class="shopping__cart__input__proceed">
                                 <div class="shopping__cart__checkout__subtotal">
                                 <h3>Sub Total<span>$900</span></h3>
@@ -112,6 +115,7 @@
                                 </div>
                                 <a class="shopping__cart__input__proceed__button" href="">Proceed to checkout</a>
                             </div>
+                        </div>
                     </div>
                 </div>
             </div>

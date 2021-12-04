@@ -108,7 +108,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 18px;
+  top: 45px;
   left: 200px;
   height: 764px;
   width: 232px;
@@ -121,8 +121,8 @@ body {
 
 .head_menu_module:hover {
   opacity: 1;
-  -webkit-transform: translateX(-232px) rotate(720deg);
-          transform: translateX(-232px) rotate(720deg);
+  -webkit-transform: translateX(-232px);
+          transform: translateX(-232px);
   -webkit-transition: 1.5s;
   transition: 1.5s;
 }
