@@ -177,8 +177,70 @@ body {
 }
 
 /*HEADER*/
-/*CART.HTML*/
-/*CART.HTML*/
+/*CATALOG*/
+/*CATALOG*/
+/*BENEFITS*/
+/*BENEFITS*/
+.benefits {
+  width: 100%;
+  background: #222224;
+  margin-top: 95.5px;
+}
+
+.benefits__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.benefits__card {
+  max-width: 360px;
+  height: 100%;
+  padding: 104px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.benefits__card h3 {
+  font-weight: 400;
+  font-size: 19.96px;
+  line-height: 24px;
+  color: #FBFBFB;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.benefits__card p {
+  font-weight: 300;
+  font-size: 13.972px;
+  line-height: 17px;
+  text-align: center;
+  color: #FBFBFB;
+  margin-top: 16px;
+  opacity: 0.7;
+}
+
+.benefits__card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 /*BENEFITS*/
 /*BENEFITS*/
 /*SUBSCRIBE*/

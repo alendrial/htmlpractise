@@ -1,0 +1,42 @@
+/*BENEFITS*/
+.benefits {
+    width: 100%;
+    background: #222224;
+    margin-top: 95.5px;
+    
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__card {
+        max-width: 360px;
+        height: 100%;
+        padding: 104px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+            font-weight: 400;
+            font-size: 19.96px;
+            line-height: 24px;
+            color: #FBFBFB;
+            text-align: center;
+            margin-top: 25px;
+        }
+        p {
+            font-weight: 300;
+            font-size: 13.972px;
+            line-height: 17px;
+            text-align: center;
+            color: #FBFBFB;
+            margin-top: 16px;
+            opacity: 0.7;
+        } 
+        &:hover {
+            transform: scale(1.1);
+            transition:  0.5s;
+        }    
+    }
+}
+/*BENEFITS*/
