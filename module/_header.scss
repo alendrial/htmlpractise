@@ -147,10 +147,13 @@
     .header__content__flex {
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: center;
         
     }
-    .header__title, .header__category {
+    .header__cat {
+        justify-content: flex-start;
+    }
+    .header__cat1, .header__cat2 {
         margin-top: 24px;
     }
 
