@@ -1674,6 +1674,9 @@ body {
   .container {
     max-width: 736px;
   }
+  .featured_items {
+    margin-top: 0px;
+  }
 }
 
 @media (max-width: 667px) {
