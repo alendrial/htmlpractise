@@ -78,14 +78,14 @@
 .cart__buy {
     margin-top: 128px;
 }
+.cart__cat {
+    margin-top: 0px;
+}
 /*subscribe_GENERAL*/
 
 @media (max-width:1024px) {
-    .container {
-        max-width: 992px;
-    }
+    
     .subscribe {
-        margin-top: 128px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: -250px;
@@ -104,12 +104,8 @@
     }
 }
 @media (max-width:768px) {
-    .container {
-        max-width: 736px;
-        
-    }
+    
    .subscribe {
-       margin-top: 128px;
        background-repeat: no-repeat;
         background-size: cover;
         background-position-x: -320px;
@@ -127,9 +123,7 @@
 }
 }
 @media (max-width:667px) {
-    .container {
-        max-width: 649px;
-    }
+    
     .subscribe {
         background-repeat: no-repeat;
         background-size: cover;
@@ -155,3 +149,6 @@
         margin-right: 16px;
 }
 }
+
+
+
