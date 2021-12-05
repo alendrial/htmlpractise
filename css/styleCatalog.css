@@ -690,7 +690,7 @@ body {
     margin-top: 32px;
     gap: 16px;
   }
-  .card_none {
+  .featured_items_card:nth-child(3) {
     display: none;
   }
   .catalog_page {
