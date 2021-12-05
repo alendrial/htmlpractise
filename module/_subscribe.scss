@@ -1,7 +1,5 @@
 /*subscribe_GENERAL*/
-.cart_page {
-    margin-top: 128.5px;
-}
+
 .subscribe {
     background-image: url(../img/subscribe_back.png);
     background-repeat: round; /*тут можно без репита, то тогда при ширине >1598px белая полоса */
@@ -77,6 +75,9 @@
         }
     }
 }
+.cart__buy {
+    margin-top: 128px;
+}
 /*subscribe_GENERAL*/
 
 @media (max-width:1024px) {
@@ -130,10 +131,12 @@
         max-width: 649px;
     }
     .subscribe {
-        margin-top: 96px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: -400px;
+    }
+    .cart__buy {
+        margin-top: 96px;
     }
     .subscribe__flex {
         flex-direction: column;
