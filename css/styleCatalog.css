@@ -106,6 +106,9 @@ body {
 
 /*HEADER CART.HTML*/
 @media (max-width: 1024px) {
+  .container {
+    max-width: 992px;
+  }
   .header__left {
     margin-left: 16px;
   }
@@ -124,6 +127,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
   .header__left {
     margin-left: 16px;
   }
@@ -142,6 +148,9 @@ body {
 }
 
 @media (max-width: 667px) {
+  .container {
+    max-width: 649px;
+  }
   .header__left {
     margin-left: 9px;
   }
@@ -169,6 +178,25 @@ body {
 
 /*HEADER*/
 /*CATALOG*/
+.header__category__link {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header__category__link:nth-child(3) {
+  color: #F16D7F;
+  font-weight: 700;
+}
+
+.header__category__link:hover {
+  color: #F16D7F;
+  font-weight: 700;
+}
+
 /*catalog*/
 .featured_items_module {
   margin-top: 96px;
@@ -616,6 +644,9 @@ body {
 /*CATALOG_PAGE_SLIDER*/
 /*catalog*/
 @media (max-width: 1024px) {
+  .container {
+    max-width: 992px;
+  }
   .catalog_items_module {
     margin-top: 0px;
   }
@@ -649,6 +680,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
   .catalog_items_filter {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -680,6 +714,9 @@ body {
 }
 
 @media (max-width: 667px) {
+  .container {
+    max-width: 649px;
+  }
   .catalog_items_filter {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
@@ -775,6 +812,9 @@ body {
 }
 
 @media (max-width: 1024px) {
+  .container {
+    max-width: 992px;
+  }
   .benefits {
     margin-top: 64px;
   }
@@ -797,6 +837,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
   .benefits {
     margin-top: 64px;
   }
@@ -819,6 +862,9 @@ body {
 }
 
 @media (max-width: 667px) {
+  .container {
+    max-width: 649px;
+  }
   .benefits__flex {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -958,6 +1004,9 @@ body {
 
 /*subscribe_GENERAL*/
 @media (max-width: 1024px) {
+  .container {
+    max-width: 992px;
+  }
   .subscribe {
     background-repeat: no-repeat;
     background-size: cover;
@@ -980,6 +1029,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
   .subscribe {
     background-repeat: no-repeat;
     background-size: cover;
@@ -1002,6 +1054,9 @@ body {
 }
 
 @media (max-width: 667px) {
+  .container {
+    max-width: 649px;
+  }
   .subscribe {
     background-repeat: no-repeat;
     background-size: cover;
@@ -1070,7 +1125,22 @@ body {
 }
 
 /*FOOTER*/
+@media (max-width: 1024px) {
+  .container {
+    max-width: 992px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
+}
+
 @media (max-width: 667px) {
+  .container {
+    max-width: 649px;
+  }
   .footer {
     padding: 43px 0px 24px 0px;
   }

@@ -84,7 +84,9 @@
 /*subscribe_GENERAL*/
 
 @media (max-width:1024px) {
-    
+    .container {
+        max-width: 992px;
+    }
     .subscribe {
         background-repeat: no-repeat;
         background-size: cover;
@@ -104,7 +106,9 @@
     }
 }
 @media (max-width:768px) {
-    
+    .container {
+        max-width: 736px;
+    }
    .subscribe {
        background-repeat: no-repeat;
         background-size: cover;
@@ -123,7 +127,9 @@
 }
 }
 @media (max-width:667px) {
-    
+    .container {
+        max-width: 649px;
+    }
     .subscribe {
         background-repeat: no-repeat;
         background-size: cover;

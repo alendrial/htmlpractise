@@ -140,7 +140,9 @@
 }
 
 @media (max-width:1024px) {
-    
+    .container {
+        max-width: 992px;
+    }
     .subscribe_form_module {
         padding-top: 40px;
     }
@@ -153,7 +155,9 @@
 
 }
 @media (max-width:768px) {
-    
+    .container {
+        max-width: 736px;
+    }
     .subscribe_form_module {
         padding-top: 40px;
     }
@@ -165,7 +169,9 @@
     }
 }
 @media (max-width:667px) {
-    
+    .container {
+        max-width: 649px;
+    }
     .subscribe_form_module {
         padding-top: 40px;
     }

@@ -63,7 +63,9 @@
 /*HEADER CART.HTML*/
 
 @media (max-width:1024px) {
-    
+    .container {
+        max-width: 992px;
+    }
     .header__left {
         margin-left: 16px;
     }
@@ -82,7 +84,9 @@
 
 }
 @media (max-width:768px) {
-    
+    .container {
+        max-width: 736px;
+    }
     .header__left {
         margin-left: 16px;
     }
@@ -102,7 +106,9 @@
 
 }
 @media (max-width:667px) {
-    
+    .container {
+        max-width: 649px;
+    }
     .header__left {
         margin-left: 9px;
     }

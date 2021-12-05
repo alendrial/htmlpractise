@@ -32,15 +32,21 @@
 /*FOOTER*/
 
 @media (max-width:1024px) {
-    
+    .container {
+        max-width: 992px;
+    }
 
 }
 @media (max-width:768px) {
-    
+    .container {
+        max-width: 736px;
+    }
 
 }
 @media (max-width:667px) {
-    
+    .container {
+        max-width: 649px;
+    }
     .footer {
         padding: 43px 0px 24px 0px;
     }

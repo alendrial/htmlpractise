@@ -106,6 +106,9 @@ body {
 
 /*HEADER CART.HTML*/
 @media (max-width: 1024px) {
+  .container {
+    max-width: 992px;
+  }
   .header__left {
     margin-left: 16px;
   }
@@ -124,6 +127,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
   .header__left {
     margin-left: 16px;
   }
@@ -142,6 +148,9 @@ body {
 }
 
 @media (max-width: 667px) {
+  .container {
+    max-width: 649px;
+  }
   .header__left {
     margin-left: 9px;
   }
@@ -352,6 +361,9 @@ body {
 }
 
 @media (max-width: 1024px) {
+  .container {
+    max-width: 992px;
+  }
   .subscribe_form_module {
     padding-top: 40px;
   }
@@ -364,6 +376,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
   .subscribe_form_module {
     padding-top: 40px;
   }
@@ -376,6 +391,9 @@ body {
 }
 
 @media (max-width: 667px) {
+  .container {
+    max-width: 649px;
+  }
   .subscribe_form_module {
     padding-top: 40px;
   }
@@ -520,6 +538,9 @@ body {
 
 /*subscribe_GENERAL*/
 @media (max-width: 1024px) {
+  .container {
+    max-width: 992px;
+  }
   .subscribe {
     background-repeat: no-repeat;
     background-size: cover;
@@ -542,6 +563,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
   .subscribe {
     background-repeat: no-repeat;
     background-size: cover;
@@ -564,6 +588,9 @@ body {
 }
 
 @media (max-width: 667px) {
+  .container {
+    max-width: 649px;
+  }
   .subscribe {
     background-repeat: no-repeat;
     background-size: cover;
@@ -632,22 +659,6 @@ body {
 }
 
 /*FOOTER*/
-@media (max-width: 667px) {
-  .footer {
-    padding: 43px 0px 24px 0px;
-  }
-  .footer__flex {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
-  .footer__text {
-    margin-top: 25px;
-  }
-}
-
-/*FOOTER*/
 @media (max-width: 1024px) {
   .container {
     max-width: 992px;
@@ -664,5 +675,19 @@ body {
   .container {
     max-width: 649px;
   }
+  .footer {
+    padding: 43px 0px 24px 0px;
+  }
+  .footer__flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .footer__text {
+    margin-top: 25px;
+  }
 }
+
+/*FOOTER*/
 /*# sourceMappingURL=styleRegistration.css.map */

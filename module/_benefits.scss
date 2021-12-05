@@ -41,7 +41,9 @@
 }
 
 @media (max-width:1024px) {
-    
+    .container {
+        max-width: 992px;
+    }
     .benefits {
         margin-top: 64px;
     }
@@ -58,7 +60,9 @@
     }
 }
 @media (max-width:768px) {
-    
+    .container {
+        max-width: 736px;
+    }
     .benefits {
         margin-top: 64px;
     }
@@ -75,7 +79,9 @@
     }
 }
 @media (max-width:667px) {
-    
+    .container {
+        max-width: 649px;
+    }
     .benefits__flex {
         flex-direction: column;
         align-items: center;
