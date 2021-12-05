@@ -209,6 +209,7 @@
         flex-direction: column;
         align-items: center;
 }
+    
     .shopping__cart__input {
         margin-top: 64px;
 }
@@ -232,13 +233,29 @@
         flex-direction: column;
         align-items: center;
 }
+    .shopping__cart__items {
+        max-width: 736px;
+
+}
+    .shopping__cart__items__button__flex {
+        justify-content: space-evenly;
+    }
+    .shopping__cart__items__button {
+        margin-top: 62px;
+    }
     .shopping__cart__input {
             margin-top: 64px;
+            max-width: 736px;
+            width: 100%;
 }
     .shopping__cart__input__flex {
         display: flex;
         justify-content: space-between;
 }
+    .shopping__cart__input__adress {
+        max-width: 360px;
+        width: 100%;
+    }
     .shopping__cart__input__proceed {
         margin-top: 39px;
     }
@@ -255,11 +272,43 @@
         flex-direction: column;
         align-items: center;
 }
+    .shopping__cart__items {
+        max-width: 360px;
+
+}   
+    .cart__card2 {
+        margin-top: 32px;
+}   
+    .shopping__cart__items__button__flex {
+        justify-content: space-between;
+}
 
     .shopping__cart__items__button {
         font-size: 12px;
         text-transform: none;
         padding: 9px 35px;
+        margin-top: 30px;
+    }
+    .shopping__cart__items__card .cart_img {
+        max-width: 143px;
+    }
+    .shopping__cart__items__card__descr {
+        margin-left: 17px;
+        margin-right: 17px;
+        margin-top: 13px;
+    }
+    .item__parametrs__price, .item__parametrs__color, .item__parametrs__size, .item__parametrs__quantity {
+        align-items: center;
+    }
+    .item__parametrs {
+        margin-top: 26px;
+    }
+    .shopping__cart__items__card__descr__flex h1, .item__parametrs__price h1, .item__parametrs__color h1, .item__parametrs__size h1, .item__parametrs__quantity h1 {
+        font-size: 14px;
+    }
+    .quantity__input {
+        max-width: 23px;
+        max-height: 15px;
     }
     .shopping__cart__input {
             margin-top: 48px;
@@ -268,6 +317,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: center;
 }
     .shopping__cart__input__proceed {
         margin-top: 48px;
