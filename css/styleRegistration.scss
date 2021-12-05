@@ -20,21 +20,7 @@ body {
 .page {
     flex-grow: 1    
 }
-@media (max-width:1024px) {
-.container {
-    max-width: 992px;
-}
-}
-@media (max-width:768px) {
-.container {
-    max-width: 736px;
-}
-}
-@media (max-width:667px) {
-.container {
-    max-width: 649px;
-}
-}
+
 /*HEADER*/
 @import "../module/header";
 /*HEADER*/
@@ -48,3 +34,18 @@ body {
 @import "../module/footer";
 /*FOOTER*/
 
+@media (max-width:1024px) {
+    .container {
+        max-width: 992px;
+    }
+    }
+@media (max-width:768px) {
+    .container {
+        max-width: 736px;
+    }
+    }
+@media (max-width:667px) {
+    .container {
+        max-width: 649px;
+    }
+    }

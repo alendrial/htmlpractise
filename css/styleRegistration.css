@@ -33,24 +33,6 @@ body {
           flex-grow: 1;
 }
 
-@media (max-width: 1024px) {
-  .container {
-    max-width: 992px;
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
-    max-width: 736px;
-  }
-}
-
-@media (max-width: 667px) {
-  .container {
-    max-width: 649px;
-  }
-}
-
 /*HEADER*/
 /*HEADER CART.HTML*/
 .header__background {
@@ -666,4 +648,21 @@ body {
 }
 
 /*FOOTER*/
+@media (max-width: 1024px) {
+  .container {
+    max-width: 992px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
+}
+
+@media (max-width: 667px) {
+  .container {
+    max-width: 649px;
+  }
+}
 /*# sourceMappingURL=styleRegistration.css.map */
