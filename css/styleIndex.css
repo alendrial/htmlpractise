@@ -315,6 +315,20 @@ body {
   }
 }
 
+.hidden_burger {
+  display: none;
+}
+
+.relative_burger {
+  position: relative;
+}
+
+.absolute_burger {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
 /*HEADER CART.HTML*/
 @media (max-width: 1024px) {
   .container {
@@ -334,6 +348,31 @@ body {
   }
   .header__right a:nth-child(3) {
     margin-right: 0px;
+  }
+  .header__index {
+    height: 368px;
+  }
+  .header__index__flex {
+    background-size: 40%;
+    background-position-x: -30px;
+  }
+  .header__index__flex h1 {
+    font-size: 24px;
+  }
+  .header__index__flex .title_bold {
+    font-size: 44px;
+  }
+  .header .burger__menu {
+    left: 200px;
+    height: 368px;
+    overflow: scroll;
+    padding-bottom: 50px;
+  }
+  .absolute_burger {
+    display: none;
+  }
+  .hidden_burger {
+    display: inline-block;
   }
 }
 
@@ -355,6 +394,13 @@ body {
   }
   .header__right a:nth-child(3) {
     margin-right: 0px;
+  }
+  .header__index__block {
+    max-width: 320px;
+  }
+  .header__index__flex {
+    padding-right: 34px;
+    background-size: 55%;
   }
 }
 
@@ -400,6 +446,22 @@ body {
   .header__cat1, .header__cat2 {
     margin-top: 24px;
   }
+  .header__index {
+    height: 363px;
+  }
+  .header__index__block {
+    max-width: 320px;
+  }
+  .header__index__flex {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-right: 0px;
+    background-image: none;
+  }
 }
 
 /*HEADER*/
@@ -413,6 +475,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 30px;
@@ -492,12 +557,9 @@ body {
 
 /*stock_items*/
 /*featured_items*/
-.featured_items_module {
-  margin-top: 96px;
-}
-
 .featured_items_text {
   text-align: center;
+  margin-top: 96px;
 }
 
 .featured_items_heading {
@@ -518,6 +580,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 30px;
@@ -731,6 +796,13 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .featured_items_text {
+    margin-top: 64px;
+  }
+  .featured_items {
+    margin-top: 64px;
+    gap: 16px;
   }
 }
 

@@ -4,6 +4,7 @@
 }
 .category_module_flex {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
 }
@@ -64,10 +65,11 @@
 /*stock_items*/
 /*featured_items*/
 .featured_items_module {
-    margin-top: 96px;
+    
 }
 .featured_items_text {
     text-align: center;
+    margin-top: 96px;
 }
 .featured_items_heading {
     font-size: 30px;
@@ -83,6 +85,7 @@
 .featured_items {
     margin-top: 48px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;  
 }
@@ -266,5 +269,12 @@
     }
     .category_module_flex {
         justify-content: center;
+    }
+    .featured_items_text {
+        margin-top: 64px;
+    }
+    .featured_items {
+        margin-top: 64px;
+        gap: 16px;
     }
 }
