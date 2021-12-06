@@ -287,7 +287,12 @@
     list-style: none;
 }
 
-
+details > summary {
+    list-style: none;
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}
 /*CATALOG_PAGE_SLIDER*/
 .catalog_page {
     display: flex;
