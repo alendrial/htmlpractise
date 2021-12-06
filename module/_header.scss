@@ -11,6 +11,8 @@
     }
 
     &__left {
+        display: flex;
+        align-items: flex-end;
         a {
             display: inline-block;
             margin-right: 41px;
@@ -20,10 +22,15 @@
         }  
     }
     &__right {
+        display: flex;
+        align-items: flex-end;
         a {
             display: inline-block;
-            margin-right: 41px;
-                &:not(:last-child) {
+            
+                &:nth-child(2) {
+                margin-right: 41px;
+            }
+                &:nth-child(1) {
                 margin-right: 33px;
             }
         }  
@@ -77,7 +84,134 @@
             transform: scale(1.2);
         }
     }
+    .burger {
+        position: relative;
+        summary {
+            display: block;
+            margin-right: 33px;
+        }
+        &__summary {
+            position: relative;
+            cursor: pointer;
+        }
+        &__menu {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            top: 45px;
+            left: 200px;
+            height: 764px;
+            min-width: 232px;
+            background: #FFFFFF;
+            box-shadow: 0px 19px 11px 0px rgba(0, 0, 0, 0.24);
+            opacity: 1;
+            z-index: 3;  
+        }
+        &__title {
+            display: block;
+            margin-top: 37px;
+            padding-left: 34px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+        }
+        &__category {
+            display: block;
+            margin-top: 20px;
+            padding-left: 34px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            color: #F16D7F;
+
+            &:last-child {
+                margin-top: 24px;
+            }
+        }
+        &__list {
+            display: block;
+            margin-top: 12px;
+            padding-left: 54.5px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            color: #6F6E6E;
+        }
+    }
+    
+    .exit_img {
+        opacity: 0;
+        z-index: 4;
+        position: absolute;
+        left: 400px;
+        top: 60px;
+    }
+    
+    &__index {
+        background-color:#F1E4E6;
+        height: 764px;
+        position: relative;
+        &__block {
+            max-width: 405px;
+            border-left: 12px solid #F16D7F; 
+            padding-left: 16px;
+        }
+        &__flex {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            justify-content: flex-end;
+            background-image: url(../img/Head_image_man.png);
+            background-repeat: no-repeat;
+            background-position-x: -228px;
+            background-size: auto;
+            padding-right: 99px;
+            h1 {
+                font-style: normal;
+                font-weight: 700;
+                font-size:  32px;
+                line-height: 38px;
+                color: #222222;
+            }
+            .title_bold {
+                font-weight: 900;
+                font-size: 48px;
+                line-height: 58px;
+            }
+            .title_decor {
+                color: #F16D7F;
+            }
+        }
+    }
 }
+
+
+.burger__category:hover, .burger__list:hover, .burger__title:hover {
+    transform: scale(1.2);
+}
+
+.burger[open] .burger__menu {
+    animation: swap 1.5s forwards;
+}
+
+.burger[open] .exit_img {
+    animation: swap 1.5s forwards;
+}
+
+@keyframes swap {
+        0%    {opacity: 0; transform: translateX(0)}
+        100%  {opacity: 1; transform: translateX(-232px)}
+}
+
+
+
 /*HEADER CART.HTML*/
 
 
@@ -92,7 +226,7 @@
         margin-right: 16px;
     }
     .header__right a:not(:last-child) {
-        margin-right: 25px;
+        margin-right: 33px;
     }
     .header__right a:nth-child(2) {
         margin-right: 42px;
@@ -113,7 +247,7 @@
         margin-right: 16px;
     }
     .header__right a:not(:last-child) {
-        margin-right: 25px;
+        margin-right: 33px;
     }
     .header__right a:nth-child(2) {
         margin-right: 42px;

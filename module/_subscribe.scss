@@ -4,7 +4,7 @@
     background-image: url(../img/subscribe_back.png);
     background-repeat: round; /*тут можно без репита, то тогда при ширине >1598px белая полоса */
     height: 100%;
-    width: auto;
+    width: 100%;
     &__flex {
         display: flex;
         justify-content: space-between;
@@ -81,6 +81,9 @@
 .cart__cat {
     margin-top: 0px;
 }
+.cart__prod {
+    margin-top: 128px;
+}
 /*subscribe_GENERAL*/
 
 @media (max-width:1024px) {
@@ -153,6 +156,9 @@
         padding-top: 58px;
         margin-left: 16px;
         margin-right: 16px;
+}
+    .cart__prod {
+        margin-top: 64px;
 }
 }
 
