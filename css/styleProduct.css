@@ -896,6 +896,14 @@ body {
 }
 
 /*BOT*/
+.filter_category_tsp > .filter_category_tsp_sum {
+  list-style: none;
+}
+
+.filter_category_tsp > .filter_category_tsp_sum::-webkit-details-marker {
+  display: none;
+}
+
 @media (max-width: 1024px) {
   .container {
     max-width: 992px;

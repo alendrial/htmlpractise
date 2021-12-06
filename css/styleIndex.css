@@ -710,6 +710,14 @@ body {
   padding-right: 11px;
 }
 
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
 /*featured_items*/
 @media (max-width: 1024px) {
   .container {

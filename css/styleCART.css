@@ -727,6 +727,14 @@ body {
   margin-left: 24px;
 }
 
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
 /*CONTENT*/
 /*CART.HTML*/
 @media (max-width: 1024px) {

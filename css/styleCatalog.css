@@ -853,6 +853,38 @@ body {
   list-style: none;
 }
 
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.filter_category > .filter_category_summary {
+  list-style: none;
+}
+
+.filter_category > .filter_category_summary::-webkit-details-marker {
+  display: none;
+}
+
+.filter_category_tsp > .filter_category_tsp_sum {
+  list-style: none;
+}
+
+.filter_category_tsp > .filter_category_tsp_sum::-webkit-details-marker {
+  display: none;
+}
+
+.filter_category_title > .filter_category_title_text {
+  list-style: none;
+}
+
+.filter_category_title > .filter_category_title_text::-webkit-details-marker {
+  display: none;
+}
+
 /*CATALOG_PAGE_SLIDER*/
 .catalog_page {
   display: -webkit-box;
