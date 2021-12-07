@@ -252,7 +252,7 @@ body {
   background-image: url(../img/Head_image_man.png);
   background-repeat: no-repeat;
   background-position-x: -228px;
-  background-size: auto;
+  background-size: contain;
   padding-right: 99px;
 }
 
@@ -353,7 +353,7 @@ body {
     height: 368px;
   }
   .header__index__flex {
-    background-size: 40%;
+    background-size: contain;
     background-position-x: -30px;
   }
   .header__index__flex h1 {
@@ -400,7 +400,7 @@ body {
   }
   .header__index__flex {
     padding-right: 34px;
-    background-size: 55%;
+    background-size: contain;
   }
 }
 
