@@ -180,7 +180,6 @@ body {
           box-shadow: 0px 19px 11px 0px rgba(0, 0, 0, 0.24);
   opacity: 1;
   z-index: 3;
-  overflow: scroll;
 }
 
 .header .burger__title {
@@ -400,6 +399,9 @@ body {
   .header__index__flex {
     padding-right: 34px;
     background-size: contain;
+  }
+  .header .burger__menu {
+    overflow: scroll;
   }
 }
 
