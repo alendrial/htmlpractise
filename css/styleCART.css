@@ -919,6 +919,15 @@ details > summary::-webkit-details-marker {
   .shopping__cart__input__proceed {
     margin-top: 48px;
   }
+  .shopping__cart__items__card__descr {
+    margin-bottom: 13px;
+  }
+  .item__parametrs {
+    margin-top: 20px;
+  }
+  .item__parametrs__color, .item__parametrs__price, .item__parametrs__quantity, .item__parametrs__size {
+    margin-top: -5px;
+  }
 }
 
 /*CART.HTML*/
