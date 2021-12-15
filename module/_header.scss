@@ -104,6 +104,7 @@
             top: 45px;
             left: 200px;
             height: calc(100vh - 165px);
+            max-height: 764px;
             min-width: 232px;
             background: #FFFFFF;
             box-shadow: 0px 19px 11px 0px rgba(0, 0, 0, 0.24);
@@ -161,6 +162,7 @@
     &__index {
         background-color:#F1E4E6;
         height: calc(100vh - 165px);
+        max-height: 764px;
         position: relative;
         &__block {
             max-width: 405px;
