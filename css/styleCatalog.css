@@ -1306,6 +1306,7 @@ details > summary::-webkit-details-marker {
   height: 49px;
   width: 100%;
   max-width: 100px;
+  cursor: pointer;
 }
 
 .cart__buy {
