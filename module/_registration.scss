@@ -1,0 +1,194 @@
+/*REGISTRATION.HTML*/
+.header_reg_module_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 148px;
+}
+.header_reg_module {
+    background: #F8F3F4;
+}
+.header_reg_text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.subscribe_form_module {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    
+}
+.subscribe_form {
+    max-width: 360px;
+}
+.subscribe_form1 {
+    display: flex;
+    flex-direction: column;
+}
+.checkbox_module {
+    display: flex;
+    margin-top: 31.5px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000; 
+}
+.checkbox_module_type {
+    display: block;
+    
+    height: 17px;
+    width: 17px;
+    border: 1px solid #A4A4A4;
+    margin-right: 10px;
+    align-self: center;
+}
+.checkbox_module_male {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox_module_female {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+
+}
+.subscribe_form1_text {
+    display: block;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+.subscribe_form1_text:nth-child(5) {
+    margin-top: 21px;
+}
+
+.subscribe_form1_p {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    margin-top: 15.5px;
+}
+.input_form {
+    border: 1px solid #A4A4A4;
+    height: 44px;
+    padding-left: 17px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    margin-top: 21px;
+}
+.button_submit {
+    height: 50px;
+    width: 167px;
+    background: #F16D7F;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 39px;
+    cursor: pointer;
+
+}
+.submit_arrow {
+    padding-left: 20px;
+}
+.subscribe_text_reg {
+    display: block;
+    max-width: 652px;
+}
+
+.subscribe_text_tittle {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: left;
+}
+.subscribe_text_paragraph {
+    margin-top: 22px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-align: left;
+}
+.subscribe_text_list {
+    list-style: url(../img/registration-v.svg);
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-align: left;
+}
+.subscribe_text_list_link {
+    margin-top: 21px;
+    margin-left: 23px;
+}
+.cart__regist {
+    margin-top: 96px;
+}
+
+@media (max-width:1024px) {
+    .container {
+        max-width: 992px;
+    }
+    .subscribe_form_module {
+        padding-top: 40px;
+    }
+    .subscribe_text_reg {
+        max-width: 500px;
+    }
+    .subscribe_text_tittle, .subscribe_text_list, .subscribe_text_paragraph {
+        font-size: 16px;
+    }
+
+}
+@media (max-width:768px) {
+    .container {
+        max-width: 736px;
+    }
+    .subscribe_form_module {
+        padding-top: 40px;
+    }
+    .subscribe_text_reg {
+        max-width: 354px;
+    }
+    .subscribe_text_tittle, .subscribe_text_list, .subscribe_text_paragraph {
+        font-size: 16px;
+    }
+}
+@media (max-width:667px) {
+    .container {
+        max-width: 649px;
+    }
+    .subscribe_form_module {
+        padding-top: 40px;
+    }
+    .subscribe_form_module {
+        flex-direction: column;
+        align-items: center;
+    }
+    .subscribe_form {
+        margin-bottom: 40px;
+    }
+    .subscribe_text_reg {
+        max-width: 354px;
+    }
+    .subscribe_text_tittle, .subscribe_text_list, .subscribe_text_paragraph {
+        font-size: 16px;
+    }
+
+}
+/*REGISTRATION.HTML*/

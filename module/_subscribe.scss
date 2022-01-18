@@ -1,0 +1,167 @@
+/*subscribe_GENERAL*/
+
+.subscribe {
+    background-image: url(../img/subscribe_back.png);
+    background-repeat: round; /*тут можно без репита, то тогда при ширине >1598px белая полоса */
+    height: 100%;
+    width: 100%;
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
+    &__wishes {
+        max-width: 360px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 86px;
+        padding-bottom: 174px;
+        p {
+            margin-top: 20px;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: #222224;
+        }
+    }
+    &__form {
+        max-width: 557px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 130px;
+        padding-bottom: 156px;
+        h1 {
+            text-align: center;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 40px;
+            text-align: center;
+            color: #222224;
+            span {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                margin-top: -8px;
+            }
+        }
+        
+    }
+    &__button {
+        margin-top: 32px;
+        width: 100%;
+        display: flex;
+        .input__email {
+            padding: 8px 0px 7px 22px;
+            background: #E1E1E1;
+            border: 0px;
+            border-radius: 15px 0px 0px 15px;
+            height: 49px;
+            width: 100%
+        }
+        .input__submit {
+            background: #F16D7F;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            margin-left: -5px;
+            padding: 7px 7px 6px 8px;
+            border: 0px;
+            border-radius: 0px 15px 15px 0px;
+            height: 49px;
+            width: 100%;
+            max-width: 100px;
+            cursor: pointer;
+        }
+    }
+}
+.cart__buy {
+    margin-top: 128px;
+}
+.cart__cat {
+    margin-top: 0px;
+}
+.cart__prod {
+    margin-top: 128px;
+}
+/*subscribe_GENERAL*/
+
+@media (max-width:1024px) {
+    .container {
+        max-width: 992px;
+    }
+    .subscribe {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: -250px;
+        
+    }
+    .subscribe__flex {
+        flex-direction: column;
+    }
+    .subscribe__wishes {
+        padding-top: 54px;
+        padding-bottom: 0px;
+    }
+    .subscribe__form {
+        padding-bottom: 140px;
+        padding-top: 68px;
+    }
+}
+@media (max-width:768px) {
+    .container {
+        max-width: 736px;
+    }
+   .subscribe {
+       background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: -320px;
+   }
+   .subscribe__flex {
+        flex-direction: column;
+}
+    .subscribe__wishes {
+        padding-top: 54px;
+        padding-bottom: 0px;
+}
+    .subscribe__form {
+        padding-bottom: 140px;
+        padding-top: 68px;
+}
+}
+@media (max-width:667px) {
+    .container {
+        max-width: 649px;
+    }
+    .subscribe {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: -400px;
+    }
+    .cart__buy {
+        margin-top: 96px;
+    }
+    .subscribe__flex {
+        flex-direction: column;
+
+    }
+    .subscribe__wishes {
+        padding-top: 54px;
+        padding-bottom: 0px;
+        margin-left: 16px;
+        margin-right: 16px;
+}
+    .subscribe__form {
+        padding-bottom: 110px;
+        padding-top: 58px;
+        margin-left: 16px;
+        margin-right: 16px;
+}
+    .cart__prod {
+        margin-top: 64px;
+}
+}
+
+
+
